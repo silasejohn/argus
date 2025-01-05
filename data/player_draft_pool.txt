@@ -1,134 +1,137 @@
 === Player Draft Pool ===
-[1] levizxy - Grandmaster (Support)
-[2] rebornmountainx - Grandmaster (Jungle)
-[3] ririkaririka - Master (Mid)
-[4] adlking - Master (ADC)
-[5] pandaemonium9213 - Master (Support)
-[6] eeleeyas - Master (Jungle)
-[7] Ticofighter47 - Master (Top)
-&& [8] borria - Master (Support)
-[9] Pyrosi - Master (Mid)
-** [10] lanzus - Master (Top)
-[11] Xellius - Master (Mid)
-[12] Gziemiyo#2771 - Diamond 1 (Mid)
-[13]  ktian - Diamond 1 (Jungle)
-[14] hwasal06 - Diamond 1 (Mid)
-[15] akudame_ikumika - Diamond 2 (Jungle)
-[16] me.pp - Diamond 2 (ADC)
+[1] Owen0214 - Grandmaster (Top) - 2.0
+[2] NicoTheBest8321 - Grandmaster (Mid) - 2.0
+[3] levizxy - Grandmaster (Support) - 2.0
+[4] rebornmountainx - Grandmaster (Jungle) - 2.0
+[5] adlking - Master (ADC) - 3.0
+[6] Ritty_lol - Master (Jungle) - 4.0
+[7] Xellius - Master (Mid) - 7.0
+[8] ririkaririka - Master (Mid) - 8.0
+[9] borria - Master (Support) - 9.0
+[10] pandaemonium9213 - Master (Support) - 9.0
+[11] me.pp - Diamond 2 (ADC) - 9.0
+[12] thespecial1 - Diamond 3 (Jungle) - 9.0
+[13] billy5832 - Diamond 2 (Jungle) - 10.0
+[14] Ticofighter47 - Master (Top) - 11.0
+[15] Pyrosi - Master (Mid) - 12.0
+[16] Ponygafo - Diamond 4 (Support) - 12.0
 --- END DRAFT PERIOD 1 ---
-[17] billy5832 - Diamond 2 (Jungle)
-[18] _hyperdragon - Diamond 3 (Jungle)
-[19] asadbanana - Diamond 3 (Top)
-[20] ifearnobody - Diamond 3 (Jungle)
-[21] yushuYoshi - Diamond 3 (Top)
-[22] thespecial1 - Diamond 3 (Jungle)
-** && [23] Iateyosushi#0821 - Diamond 3 (Jungle)
-[24] a12562 - Diamond 3 (Jungle)
-[25] yeetyoteyate - Diamond 3 (Mid)
-[26] Ponygafo - Diamond 4 (Support)
-[27] karismxtic - Diamond 4 (Mid)
-[28] benjamminlol - Diamond 4 (Top)
-[29] Xeuhktal - Diamond 4 (Top)
-[30] Pandaemonium35 - Diamond 4 (Top)
-[31] os00z - its 2 zeroes  - Emerald 1 (Jungle)
-[32] xbalmer - Emerald 1 (ADC)
+[17] eeleeyas - Master (Jungle) - 13.0
+[18] Iateyosushi - Diamond 3 (Jungle) - 13.0
+[19] yeetyoteyate - Diamond 3 (Mid) - 13.0
+[20] chubbydumpling - Platinum 1-4 (Support) - 14.0
+[21] _hyperdragon - Diamond 3 (Jungle) - 14.0
+[22] ifearnobody - Diamond 3 (Jungle) - 14.0
+[23] bluewu. - Diamond 2 (Mid) - 14.0
+[24] hwasal06 - Diamond 1 (Mid) - 15.0
+[25] GourmetCookies - Emerald 1 (Support) - 16.0
+[26] Xeuhktal - Diamond 4 (Top) - 16.0
+[27] kessler_kora - Emerald 4 (Mid) - 16.0
+[28] akudame_ikumika - Diamond 2 (Jungle) - 16.0
+[29] Mcfasho - Emerald 2 (Jungle) - 17.0
+[30] w0ld - Emerald 1 (Support) - 17.0
+[31] gziemiyo - Diamond 1 (Mid) - 17.0
+[32] kristangent. - Diamond 1 (Jungle) - 18.0
 --- END DRAFT PERIOD 2 ---
-[33] ookami_mio - Emerald 1 (Top)
-[34] w0ld - Emerald 1 (Support)
-[35] Drysicle - Emerald 2 (Top)
-[36] vanos____ - Emerald 2 (ADC)
-[37] numberzer0 - Emerald 2 (Mid)
-[38] jinjguchiha - Emerald 2 (Jungle)
-[39] Mcfasho - Emerald 2 (Jungle)
-[40] Edmontosaurus - Emerald 2 (ADC)
-[41] xenux - Emerald 3 (Top)
-[42] bouncy.knight. - Emerald 3 (Jungle)
-[43] .jakefromstatefarmat3am - Emerald 3 (Top)
-[44] Luytenn - Emerald 3 (ADC)
-[45] baomatrix - Emerald 3 (ADC)
-[46] mctatertot - Emerald 3 (Jungle)
-[47] Whynot99. - Emerald 3 (Jungle)
-[48] .monsuno - Emerald 4 (Top)
-** && DONNY
+[33] ookami_mio - Emerald 1 (Top) - 18.0
+[34] benjamminlol - Diamond 4 (Top) - 18.0
+[35] Luytenn - Emerald 3 (ADC) - 18.0
+[36] karismxtic - Diamond 4 (Mid) - 18.0
+[37] asadbanana - Diamond 3 (Top) - 18.0
+[38] yushuYoshi - Diamond 3 (Top) - 18.0
+[39] xbalmer - Emerald 1 (ADC) - 18.0
+[40] Kuroaf - Diamond 3 (Jungle) - 18.0
+[41] Epicphail2 - Gold 1-4 (Jungle) - 19.0
+[42] Drysicle - Emerald 2 (Top) - 20.0
+[43] Edmontosaurus - Emerald 2 (ADC) - 20.0
+[44] Lord Tubbyton - Emerald 2 (Mid) - 20.25
+[45] xenux - Emerald 3 (Top) - 21.0
+[46] numberzer0 - Emerald 2 (Mid) - 21.0
+[47] jinjguchiha - Emerald 2 (Jungle) - 21.0
+[48] aguriv - Platinum 1-4 (Top) - 21.0
 --- END DRAFT PERIOD 3 ---
-[49] superchicken. - Emerald 4 (Jungle)
-[50] austinsilva - Emerald 4 (Support)
-[51] kessler_kora - Emerald 4 (Mid)
-[52] Harold - Emerald 4 (Mid)
-[53] chubbydumpling - Platinum 1-4 (Support)
-[54] thahamburglar8920 - Platinum 1-4 (Top)
-[55] Barretel - Platinum 1-4 (Jungle)
-[56] sihost.exe - Platinum 1-4 (Support)
-[57] amuchu - Platinum 1-4 (Support)
-[58] themangomenace - Platinum 1-4 (Support)
-[59] CCswift - Platinum 1-4 (Top)
-[60] aapathyy - Platinum 1-4 (Mid)
-** [61] crimson_0range - Platinum 1-4 (Top)
-[62] notalxd - Platinum 1-4 (Jungle)
-[63] _aly39_ - Platinum 1-4 (Mid)
-[64] vegito3650 - Platinum 1-4 (Support)
+[49] vanos____ - Emerald 2 (ADC) - 22.0
+[50] Whynot99. - Emerald 3 (Jungle) - 22.0
+[51] themangomenace - Platinum 1-4 (Support) - 23.0
+[52] 0nlySinful - Emerald 4 (Mid) - 23.0
+[53] bouncy.knight. - Emerald 3 (Jungle) - 23.0
+[54] superchicken. - Emerald 4 (Jungle) - 24.0
+[55] .monsuno - Emerald 4 (Top) - 24.0
+[56] slaveknightkos - Emerald 3 (Mid) - 24.0
+[57] ausxh - Emerald 3 (ADC) - 25.0
+[58] aapathyy - Platinum 1-4 (Mid) - 25.0
+[59] amuchu - Platinum 1-4 (Support) - 25.0
+[60] baomatrix - Emerald 3 (ADC) - 25.0
+[61] Jerboas - Platinum 1-4 (Support) - 26.0
+[62] MajinHollow - Platinum 1-4 (ADC) - 26.0
+[63] blizzardbear101 - Emerald 4 (Mid) - 26.0
+[64] Promech - Platinum 1-4 (Top) - 26.0
 --- END DRAFT PERIOD 4 ---
-[65] theencry - Platinum 1-4 (Jungle)
-[66] aguriv - Platinum 1-4 (Top)
-[67] themilkalator - Platinum 1-4 (ADC)
-[68] Promech - Platinum 1-4 (Top)
-[69] Jerboas - Platinum 1-4 (Support)
-[70] BirdP3Rson - Platinum 1-4 (ADC)
-[71] Jbish96 - Platinum 1-4 (ADC)
-[72] Bhrisy - Platinum 1-4 (Support)
-[73] Epicphail2 - Gold 1-4 (Jungle)
-[74] BREDONIS#9133 - Gold 1-4 (Top)
-[75] natchould - Gold 1-4 (ADC)
-[76] MajinHollow - Gold 1-4 (ADC)
-[77] Dreadsu - Gold 1-4 (Top)
-[78] SwooshWRLD - Gold 1-4 (Mid)
-[79] tibbywibby11 - Gold 1-4 (Jungle)
-[80] darkll - Gold 1-4 (Mid)
-&& Josh
+[65] seagullslayer7 - Emerald 4 (Jungle) - 26.0
+[66] BirdP3Rson - Platinum 1-4 (ADC) - 26.0
+[67] _aly39_ - Platinum 1-4 (Mid) - 26.0
+[68] sigilofaletheia - Platinum 1-4 (Support) - 26.25
+[69] austinsilva - Emerald 4 (Support) - 27.0
+[70] thehamburglar8920 - Platinum 1-4 (Top) - 27.0
+[71] themilkalator - Platinum 1-4 (ADC) - 28.0
+[72] sithprincehammy - Platinum 1-4 (Jungle) - 28.0
+[73] Jbish96 - Platinum 1-4 (ADC) - 28.0
+[74] theotherbubble - Gold 1-4 (Mid) - 28.0
+[75] notalxd - Platinum 1-4 (Jungle) - 28.0
+[76] Monturkey - Platinum 1-4 (Jungle) - 28.0
+[77] mctatertot - Emerald 3 (Jungle) - 29.0
+[78] crimson_0range - Platinum 1-4 (Top) - 29.0
+[79] Bhrisy - Platinum 1-4 (Support) - 31.0
+[80] vegito3650 - Platinum 1-4 (Support) - 31.0
 --- END DRAFT PERIOD 5 ---
-[81] Colby115 - Gold 1-4 (Top)
-** [82] para.dox - Gold 1-4 (Jungle)
-[83] OWLBIRD NA#1 - Gold 1-4 (Mid)
-[84] thecoldcuts - Gold 1-4 (Jungle)
-[85] Tiger58 - Gold 1-4 (Support)
-[86] Maxwelljrm - Gold 1-4 (Mid)
-[87] Goku2057 - Gold 1-4 (Support)
-[88] kybcat - Gold 1-4 (ADC)
-[89] iamrowx - Gold 1-4 (Support)
-[90] Flaccid4U - Gold 1-4 (Support)
-[91] isolation19 - Gold 1-4 (ADC)
-[92] val.d - Gold 1-4 (Mid)
-[93] jun_with_an_e - Gold 1-4 (Support)
-[94] dameionaruto - Gold 1-4 (Mid)
-[95] chaos0002 - Gold 1-4 (Top)
-[96] Horror - Gold 1-4 (Support)
+[81] Barretel - Platinum 1-4 (Jungle) - 31.0
+[82] CCswift - Platinum 1-4 (Top) - 31.0
+[83] .jakefromstatefarmat3am - Emerald 3 (Top) - 32.0
+[84] kybcat - Gold 1-4 (ADC) - 32.0
+[85] owlbirdy - Gold 1-4 (Mid) - 32.0
+[86] darkll - Gold 1-4 (Mid) - 33.0
+[87] theencry - Platinum 1-4 (Jungle) - 33.0
+[88] para.dox - Gold 1-4 (Jungle) - 33.0
+[89] Maxwelljrm - Gold 1-4 (Mid) - 33.0
+[90] bredonis - Gold 1-4 (Top) - 34.0
+[91] geekee - Gold 1-4 (Support) - 35.0
+[92] tibbywibby11 - Gold 1-4 (Jungle) - 35.0
+[93] Flaccid4U - Gold 1-4 (Support) - 35.0
+[94] just.neo - Gold 1-4 (Mid) - 35.0
+[95] isolation19 - Gold 1-4 (ADC) - 35.0
+[96] jun_with_an_e - Gold 1-4 (Support) - 35.0
 --- END DRAFT PERIOD 6 ---
-[97] Geekee#4651 - Gold 1-4 (Support)
-[98] just.neo - Gold 1-4 (Mid)
-[99] a_k_z7 - Gold 1-4 (Top)
-[100] angelofpaper2 - Silver 1-4 (Mid)
-[101] fluffy_s - Silver 1-4 (ADC)
-** [102] Scardeo - Silver 1-4 (Top)
-[103] kie2522 - Silver 1-4 (Support)
-[104] Elvynya - Silver 1-4 (ADC)
-[105] Dr Jackal - Silver 1-4 (Jungle)
-[106] Serided - Silver 1-4 (ADC)
-[107] shotsfortots - Silver 1-4 (ADC)
-[108] feeshstix#7200 - Silver 1-4 (ADC)
-[109] jesshipo - Bronze 1-4 (ADC)
-[110] @m8nerdbat - Bronze 1-4 (Top)
-[111] TheWanderingNomad - Bronze 1-4 (Jungle)
-[112] Crazymike1#4374 - Bronze 1-4 (ADC)
+[97] chaos0002 - Gold 1-4 (Top) - 36.0
+[98] Colby115 - Gold 1-4 (Top) - 36.0
+[99] nerfseason - Platinum 1-4 (Top) - 36.0
+[100] atamaex - Gold 1-4 (Top) - 36.5
+[101] SwooshWRLD - Gold 1-4 (Mid) - 37.0
+[102] Dreadsu - Gold 1-4 (Top) - 37.0
+[103] Scardeo - Silver 1-4 (Top) - 37.0
+[104] iamrowx - Gold 1-4 (Support) - 38.0
+[105] Goku2057 - Gold 1-4 (Support) - 38.0
+[106] Tiger58 - Gold 1-4 (Support) - 39.0
+[107] dameionaruto - Gold 1-4 (Mid) - 39.0
+[108] fluffy_s - Silver 1-4 (ADC) - 39.0
+[109] drjacka1 - Silver 1-4 (Jungle) - 40.0
+[110] icebirb. - Silver 1-4 (Mid) - 40.0
+[111] Elvynya - Silver 1-4 (ADC) - 41.0
+[112] shotsfortots - Silver 1-4 (ADC) - 41.0
 --- END DRAFT PERIOD 7 ---
-** Rose
-[113] datgillyweed - Bronze 1-4 (Mid)
-[114] mrionzo.0224 - Bronze 1-4 (ADC)
-[115] mikesofikes - Bronze 1-4 (Support)
-[116] Skymoare - Bronze 1-4 (Mid)
-[117] brandis_ - Bronze 1-4 (Support)
-[118] Schorfactor - Bronze 1-4 (ADC)
-[119] joshe21 - Bronze 1-4 (Support)
-[120] melonorb - Iron 1-4 (ADC)
-[121] Lanciferp - Iron 1-4 (Top)
-[122] Warmpikmin - Iron 1-4 (Top)
-[123] peachyboop - Iron 1-4 (Support)
+[113] Serided - Silver 1-4 (ADC) - 41.0
+[114] feeshstix - Silver 1-4 (ADC) - 43.0
+[115] datgillyweed - Bronze 1-4 (Mid) - 44.0
+[116] kie2522 - Silver 1-4 (Support) - 45.0
+[117] jesshipo - Bronze 1-4 (ADC) - 45.0
+[118] crazymike1 - Bronze 1-4 (ADC) - 45.0
+[119] crazymike1 - Bronze 1-4 (Support) - 45.0
+[120] brandis_ - Bronze 1-4 (Jungle) - 46.0
+[121] joshe21 - Bronze 1-4 (Support) - 46.0
+[122] angelofpaper2 - Silver 1-4 (Mid) - 47.0
+[123] crusader_iii - Bronze 1-4 (Jungle) - 48.0
+[124] Skymoare - Bronze 1-4 (Mid) - 48.0
+[125] peachyboop - Iron 1-4 (Support) - 49.0
+[126] Warmpikmin - Iron 1-4 (Top) - 49.0
+[127] Lanciferp - Iron 1-4 (Top) - 50.0
+[128] melonorb - Iron 1-4 (ADC) - 50.0
+--- END DRAFT PERIOD 8 ---

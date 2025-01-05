@@ -56,5 +56,9 @@ Deactivate Virtual Environment: `deactivate`
 #### TODO
 1. look through raw spreadsheet + read qualitative descriptions ~> assign a bool value of "consideration"
 2. look through primary / secondary rank descriptions ~> assign a bool value of "consider_secondary_role"
-3. create selenium scripts for league of graphs, op.gg, and rewind.lol to access more quantitative scouting info
+3. create selenium scripts for op.gg champ history, and rewind.lol to access more quantitative scouting info
 4. COOL PRINT OUTPUT + DYNAMIC PRINT OUTPUT
+5. TODO: change examples / test into pyunit or whatnot
+6. Build Local React App ~> Live Draft Tool for Gepetto during Draft
+7. Add Region Button Press for NA (when switching regions) handling incorrect input
+8. Consider Friend Pools in draft picking

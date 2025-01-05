@@ -3,21 +3,7 @@ import json
 import pandas as pd
 import utility as util
 
-# open spreadsheet as pandas df
-df = pd.read_csv('data/updated_data.csv')
-headers = df.columns.tolist()
-
-# access new header names (json) in config folder
-with open('config/new_headers.json', 'r') as file:
-    new_headers = json.load(file)["new_headers"]
-
-# add new 4 values to new_headers for new spreadsheet values
-new_headers += ['', 'primary_consideration', 'secondary_consideration', 'notes']
-
-# create new df using the new headers
-df.columns = new_headers
-
-"""
+""" CAPTAIN INFO
 Cheese (Top)        ... mrlizwiz
 Earthen (Top)       ... earthen
 VLN (top lane)      ... verylastnerve
@@ -40,157 +26,222 @@ Stl Slayer (ADC)    ... stl_slayer_24
 DavidEdge (Support) ... davidedge
 """
 
-### create new simulation for draft
-captains = ['DavidEdge', 
-            'different_lol', 
-            'recoveringschizo', 
-            '_lakuna', 
-            'jayrich1101', 
-            '.f_g.', 
-            'catinatin', 
-            'acekiller1107',
-            'Earthen',
-            'Lapislazuli3824',
-            'ffsfruit',
-            'Stl_Slayer_24',
-            'Stran',
-            'VeryLastNerve',
-            'mrlizwiz',
-            'aratthe']
-
-# remove 'opgg_link', 'peak_rank_explanation', 'availability', 'interest_in_captain', 'reference_to_vln_league', 'playstyle_description', 'join_discord_flag' columns and corresponding headers
-new_df = df.drop(columns=['opgg_link', 'peak_rank_explanation', 'availability', 'interest_in_captain', 'reference_to_vln_league', 'playstyle_description', 'join_discord_flag', 'primary_consideration', 'secondary_consideration', 'notes', 'is_peak_rank_true_rank', 'champion_identity', 'secondary_role_skill_level', ''])
-
-# print all unique 'discord_username' values
-print(new_df['discord_username'].unique())
-
-# create new df with only rows of captains that are in 'discord_username' column ... 'cap_df'
-cap_df = pd.DataFrame(columns=new_df.columns)
-for captain in captains:
-    cap_df = pd.concat([cap_df, new_df[new_df['discord_username'] == captain]], ignore_index=True)
-# print(df)
-
-# create a df with no captain in it 'draft_df'
-df = pd.read_csv('data/updated_data.csv')
-headers = df.columns.tolist()
-df.columns = new_headers
-draft_df = df.drop(columns=['opgg_link', 'peak_rank_explanation', 'availability', 'interest_in_captain', 'reference_to_vln_league', 'playstyle_description', 'join_discord_flag', 'primary_consideration', 'secondary_consideration', 'notes', 'is_peak_rank_true_rank', 'champion_identity', 'secondary_role_skill_level', ''])
-draft_df = draft_df[~draft_df['discord_username'].isin(captains)]
-# print(draft_df)
-
-# run a simulation
-from collections import defaultdict
-
 MAX_PLAYERS_PER_TEAM = 8
-RANK_OPTIONS = [
-    'Iron 1-4', 'Bronze 1-4', 'Silver 1-4', 'Gold 1-4', 'Platinum 1-4',
-    'Emerald 4', 'Emerald 3', 'Emerald 2', 'Emerald 1',
-    'Diamond 4', 'Diamond 3', 'Diamond 2', 'Diamond 1',
-    'Master', 'Grandmaster']
 ROLES = ['ADC', 'Mid', 'Jungle', 'Support', 'Top']
 
-# cap_df is the cap df... important headers 'discord_username', 'primary_role', 'secondary_role', 'peak_rank_2024_split3'
-# draft_df is the draft df... important headers 'discord_username', 'primary_role', 'secondary_role', 'peak_rank_2024_split3'
+### captains as in order for pick order
+captains = ['VeryLastNerve',
+            '_lakuna',
+            '.stran',
+            'mrlizwiz',
+            'Lapislazuli3824',
+            'Earthen',
+            '.f_g.',
+            'recoveringschizo',
+            'jayrich1101', 
+            'ffsfruit',
+            'different_lol',
+            'Stl_Slayer_24',
+            'DavidEdge', 
+            'catinatin', 
+            'axekiller1107',
+            'aratthe']
 
-rank_order = {rank: i for i, rank in enumerate(RANK_OPTIONS)}
-def get_rank(player_rank):
-    return rank_order[player_rank]
+# open draft info spreadsheet as pandas df
+draft_pool_df = pd.read_csv('data/simulation_data_with_points.csv')
+draft_pool_df = draft_pool_df.drop(columns=['opgg_link', 'peak_rank_explanation', 'availability', 'interest_in_captain', 'reference_to_vln_league', 'playstyle_description', 'join_discord_flag', 'is_peak_rank_true_rank', 'champion_identity', 'secondary_role_skill_level'])
 
-# cap_df['rank_value'] = cap_df['peak_rank_2024_split3'].apply(get_rank)
-# draft_df['rank_value'] = draft_df['peak_rank_2024_split3'].apply(get_rank)
-cap_df['rank_value'] = cap_df['peak_rank_2024_split3'].apply(lambda r: RANK_OPTIONS.index(r))
-draft_df['rank_value'] = draft_df['peak_rank_2024_split3'].apply(lambda r: RANK_OPTIONS.index(r))
-pladraft_dfyers = draft_df.sort_values(by='rank_value', ascending=False).reset_index(drop=True)
+# print all unique 'discord_username' values
+print(draft_pool_df['discord_username'].unique())
 
-# sort caps by rank first
-cap_df = cap_df.sort_values(by=['rank_value'], ascending=True)
+# create new df with only rows of captains that are in 'discord_username' column ... 'cap_df'
+cap_df = pd.DataFrame(columns=draft_pool_df.columns)
+for captain in captains:
+    cap_df = pd.concat([cap_df, draft_pool_df[draft_pool_df['discord_username'] == captain]], ignore_index=True)
+cap_draft_ordered_df = cap_df.sort_values(by=['rank_score'], ascending=True).reset_index(drop=True)
 
-# print(cap_df)
-# sys.exit()
-
-# init a potential draft dictionary
-draft_results = defaultdict(list)
-
-# simulate the snake draft
-snake_order = list(range(len(cap_df))) + list(range(len(cap_df) - 1, -1, -1))
-captains = cap_df.to_dict('records')
+# create a df with no captain in it 'draft_df'
+draft_df = draft_pool_df[~draft_pool_df['discord_username'].isin(captains)]
+draft_df = draft_df.sort_values(by='rank_score', ascending=True).reset_index(drop=True) # sort draft pool by rank
 players_pool = draft_df.copy()
 
 # export player draft pool and cap draft pool in pretty print to a text file
-# every 16 players, draw a line
-line_idx = 0
-player_idx = 1
 with open('data/player_draft_pool.txt', 'w') as file:
+    line_idx = 0 # every 16 players, draw a line
+    player_idx = 1
     file.write("=== Player Draft Pool ===\n")
     # sort by rank
-    players_pool = players_pool.sort_values(by=['rank_value'], ascending=False)
+    players_pool = players_pool.sort_values(by=['rank_score'], ascending=True)
     for index, row in players_pool.iterrows():
-        file.write(f"[{player_idx}] {row['discord_username']} - {row['peak_rank_2024_split3']} ({row['primary_role']})\n")
+        file.write(f"[{player_idx}] {row['discord_username']} - {row['peak_rank_2024_split3']} ({row['primary_role']}) - {row['rank_score']}\n")
         if player_idx % 16 == 0:
             file.write(f"--- END DRAFT PERIOD {line_idx + 1} ---\n")
             line_idx += 1
         player_idx += 1
 
-cap_idx = 1
+# export player draft pool by role to 5 more text files
+for role in ROLES:
+    with open(f'data/{role}_player_draft_pool.txt', 'w') as file:
+        player_idx = 1
+        file.write(f"=== Player Draft Pool ({role}) ===\n")
+        # sort by rank
+        players_pool_filtered_by_role = players_pool[players_pool['primary_role'] == role]
+        players_pool_filtered_by_role = players_pool_filtered_by_role.sort_values(by=['rank_score'], ascending=True)
+        for index, row in players_pool_filtered_by_role.iterrows():
+            file.write(f"[{player_idx}] {row['discord_username']} - {row['peak_rank_2024_split3']} ({row['primary_role']}) - {row['rank_score']}\n")
+            player_idx += 1
+
 with open('data/cap_draft_pool.txt', 'w') as file:
+    cap_idx = 1
     file.write("=== Captain Draft Pool ===\n")
     for index, row in cap_df.iterrows():
-        file.write(f"[{cap_idx}] {row['discord_username']} - {row['peak_rank_2024_split3']} ({row['primary_role']})\n")
+        file.write(f"[{cap_idx}] {row['discord_username']} - {row['peak_rank_2024_split3']} ({row['primary_role']}) - {row['rank_score']}\n")
+        cap_idx += 1
+    cap_idx = 1
+    file.write(f"\n\n=== Captain Draft Pool (Ordered) ===\n")
+    for index, row in cap_draft_ordered_df.iterrows():
+        file.write(f"[{cap_idx}] {row['discord_username']} - {row['peak_rank_2024_split3']} ({row['primary_role']}) - {row['rank_score']}\n")
         cap_idx += 1
 
-for round_num in range(MAX_PLAYERS_PER_TEAM):
-    print(f"\n=== Round {round_num + 1} ===")
-    for cap_idx in snake_order:
-        captain = captains[cap_idx]
-        captain_id = captain['discord_username']
+# print(cap_df)
+# print(draft_df)
+# sys.exit()
 
-        # if cap alr has MAX_PLAYERS_PER_TEAM then go next
-        if len(draft_results[captain_id]) >= MAX_PLAYERS_PER_TEAM:
-            continue
+############################################################################################################
+############################################################################################################
+############################################################################################################
 
-        # determine a needed role 
-        drafted_roles = [player['primary_role'] for player in draft_results[captain_id]]
-        needed_roles = [role for role in ROLES if role not in drafted_roles]
+# run a simulation
+from collections import defaultdict
 
-        # prio needed roles 
-        if needed_roles:
-            eligible_player = players_pool[players_pool['primary_role'].isin(needed_roles)]
-        else:
-            eligible_player = players_pool
+# init a potential draft dictionary
+draft_results = defaultdict(list)
 
-        # sort by rank
-        eligible_player = eligible_player.sort_values(by=['rank_value'], ascending=False)
+# simulate the snake draft
+# snake_order = list(range(len(cap_df))) + list(range(len(cap_df) - 1, -1, -1))
+snake_order = (list(range(len(cap_df))) + list(range(len(cap_df) - 1, -1, -1))) * 3 + list(range(len(cap_df)))  
+captains_list = cap_df.to_dict('records')
 
-        if eligible_player.empty:
-            print(f"{util.RED}Captain [{captain_id}] cannot pick. No eligible players left!{util.RESET}")
-            continue
+# add all captains as the first player in their respective teams
+for captain in captains_list:
+    draft_results[captain['discord_username']].append(captain)
 
-        # how to handle ties
-        top_rank_value = eligible_player.iloc[0]['rank_value']
-        top_candidates = eligible_player[eligible_player['rank_value'] == top_rank_value]
+# create an array of flags with # of indexs equal to number of captains
+cap_flags = [0] * len(captains)
 
-        if len(top_candidates) > 1:
-            print(f"{util.YELLOW}Tie for Captain [{captain_id}]: {top_candidates[['discord_username', 'primary_role']].to_dict('records')}")
-            # choice = input("Enter user_id of the player to pick: ")
-            # if choice not in top_candidates['discord_username'].values:
-            #     print("Invalid choice! Defaulting to the first available player.")
-            selected_player = top_candidates.iloc[0]
-            # else:
-            # selected_player = top_candidates[top_candidates['discord_username'] == choice].iloc[0]
-        else:
-            selected_player = top_candidates.iloc[0]
+print(f"cap_flags: {cap_flags}")
 
-        # add player to captains draft and remove from pool
-        draft_results[captain_id].append(selected_player.to_dict())
-        players_pool = players_pool[players_pool['discord_username'] != selected_player['discord_username']]
-        print (f"{util.GREEN}Captain [{captain_id}] picked [{selected_player['discord_username']}] ({selected_player['primary_role']})!{util.RESET}")
+def force_player_onto_team(pool, player, captain_id):
+    pool = pool[pool['discord_username'] != player['discord_username']]
+    draft_results[captain_id].append(player.to_dict())
+    cap_flags[captains.index(captain_id)] += 1
+    print(f"captains: {captain_id}")
+    print(f"captains.index(captain_id): {captains.index(captain_id)}")
+    print(f"cap_flags: {cap_flags}")
+    return pool
+
+# open a "in progress draft notes file"
+with open('data/draft_in_progress.txt', 'w') as file:
+    file.write("=== Draft In Progress ===\n")
+
+    # force pick a player for a captain
+    print(f"\n=== Force Pick ===")
+    force_cap_1 = 'jayrich1101'
+    force_player_pick_1 = 'Owen0214'
+    players_pool = force_player_onto_team(players_pool, players_pool[players_pool['discord_username'] == force_player_pick_1].iloc[0], force_cap_1)
+
+    for round_num in range(1, MAX_PLAYERS_PER_TEAM):
+        print(f"\n=== Round {round_num} ===")
+        file.write(f"\n=== Round {round_num} ===")
+        snake_pick_count = 0 # represents what pick of the draft we are on
+        snake_picks_left = 16 * 8 - 1 # represents how many picks have been made
+        for pick_num_in_round in range(16): # represents the number of picks per round
+            cap_idx = snake_order[snake_pick_count] # get the captain index
+            snake_pick_count += 1 # increment the pick count
+            snake_picks_left -= 1 # decrement the picks left
+            captain = captains_list[cap_idx]
+            captain_id = captain['discord_username']
+
+            if cap_flags[captains.index(captain_id)] >= 1:
+                print(f"{util.RED}Captain [{captain_id}] cannot pick. Already picked this round!{util.RESET}")
+                cap_flags[captains.index(captain_id)] -= 1 # decrement the flag
+                continue
+
+            # if cap alr has MAX_PLAYERS_PER_TEAM then go next
+            if len(draft_results[captain_id]) >= MAX_PLAYERS_PER_TEAM:
+                continue
+
+            # normal simulation 
+            if round_num != 3 and round_num != 7:
+                # determine a needed role
+                drafted_roles = [player['primary_role'] for player in draft_results[captain_id]]
+                needed_roles = [role for role in ROLES if role not in drafted_roles]
+
+                # prio needed roles 
+                if needed_roles:
+                    eligible_player = players_pool[players_pool['primary_role'].isin(needed_roles)]
+                else:
+                    eligible_player = players_pool
+            
+            elif round_num == 3:
+                # determine total point value from rank_score of all players currently on a team
+                total_points = sum([player['rank_score'] for player in draft_results[captain_id]])
+                print(f"{util.CYAN}Captain [{captain_id}] total points: {total_points}{util.RESET}")
+                file.write(f"\nCaptain [{captain_id}] total points: {total_points}")
+
+                # calculate difference from threshold of 80
+                rank_difference = 80 - total_points
+
+                # find players with rank_score higher or equal to than rank_difference
+                eligible_player = players_pool[players_pool['rank_score'] >= rank_difference]
+
+            elif round_num == 7:
+                # determine total point value from rank_score of all players currently on a team
+                total_points = sum([player['rank_score'] for player in draft_results[captain_id]])
+                print(f"{util.CYAN}Captain [{captain_id}] total points: {total_points}{util.RESET}")
+                file.write(f"\nCaptain [{captain_id}] total points: {total_points}")
+
+                # calculate difference from threshold of 160
+                rank_difference = 160 - total_points
+
+                # find players with rank_score higher or equal to than rank_difference
+                eligible_player = players_pool[players_pool['rank_score'] >= rank_difference]
+
+            # sort by rank
+            eligible_player = eligible_player.sort_values(by=['rank_score'], ascending=True)
+
+            if eligible_player.empty:
+                print(f"{util.RED}Captain [{captain_id}] cannot pick. No eligible players left!{util.RESET}")
+                file.write(f"\nCaptain [{captain_id}] cannot pick. No eligible players left!")
+                continue
+
+            # how to handle ties
+            top_rank_score = eligible_player.iloc[0]['rank_score']
+            top_candidates = eligible_player[eligible_player['rank_score'] == top_rank_score]
+
+            if len(top_candidates) > 1:
+                print(f"{util.YELLOW}Tie for Captain [{captain_id}]: {top_candidates[['discord_username', 'primary_role']].to_dict('records')}{util.RESET}")
+                file.write(f"\nTie for Captain [{captain_id}]: {top_candidates[['discord_username', 'primary_role']].to_dict('records')}")
+                selected_player = top_candidates.iloc[0]
+            else:
+                selected_player = top_candidates.iloc[0]
+
+            # add player to captains draft and remove from pool
+            draft_results[captain_id].append(selected_player.to_dict())
+
+            # remove player from the draft pool 
+            players_pool = players_pool[players_pool['discord_username'] != selected_player['discord_username']]
+
+            # [PRINT]
+            print (f"{util.GREEN}Captain [{captain_id}] picked [{selected_player['discord_username']}] ({selected_player['primary_role']})!{util.RESET}")
+            file.write (f"\nCaptain [{captain_id}] picked [{selected_player['discord_username']}] ({selected_player['primary_role']})!")
 
 # pretty print the results
 print("\n=== Final Draft Results ===")
 for captain_id, team in draft_results.items():
     print(f"\n{util.CYAN}Captain [{captain_id}] Team:")
     for player in team:
-        print(f"{player['discord_username']} - {player['peak_rank_2024_split3']} ({player['primary_role']})")
+        print(f"{player['discord_username']} - {player['peak_rank_2024_split3']} ({player['primary_role']}) - {player['rank_score']}")
 
 # output pretty print results into a .txt file in /data 
 with open('data/draft_results.txt', 'w') as file:
@@ -198,4 +249,5 @@ with open('data/draft_results.txt', 'w') as file:
     for captain_id, team in draft_results.items():
         file.write(f"\nCaptain [{captain_id}] Team:\n")        
         for player in team:
-            file.write(f"{player['discord_username']} - {player['peak_rank_2024_split3']} ({player['primary_role']})\n")
+            file.write(f"{player['discord_username']} - {player['peak_rank_2024_split3']} ({player['primary_role']}) - {player['rank_score']}\n")
+

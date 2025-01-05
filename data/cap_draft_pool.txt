@@ -1,17 +1,36 @@
 === Captain Draft Pool ===
-[1] VeryLastNerve - Silver 1-4 (Top)
-[2] recoveringschizo - Gold 1-4 (Jungle)
-[3] aratthe - Gold 1-4 (Support)
-[4] Stran - Platinum 1-4 (ADC)
-[5] mrlizwiz - Platinum 1-4 (Top)
-[6] _lakuna - Emerald 4 (Jungle)
-[7] Earthen - Emerald 4 (Top)
-[8] Lapislazuli3824 - Emerald 4 (Mid)
-[9] .f_g. - Emerald 2 (Top)
-[10] catinatin - Emerald 2 (Mid)
-[11] acekiller1107 - Emerald 1 (Jungle)
-[12] ffsfruit - Diamond 4 (Mid)
-[13] jayrich1101 - Diamond 3 (ADC)
-[14] DavidEdge - Diamond 2 (Support)
-[15] different_lol - Master (ADC)
-[16] Stl_Slayer_24 - Master (ADC)
+[1] VeryLastNerve - Silver 1-4 (Top) - 33.0
+[2] _lakuna - Emerald 4 (Jungle) - 21.0
+[3] .stran - Platinum 1-4 (ADC) - 32.0
+[4] mrlizwiz - Platinum 1-4 (Top) - 24.0
+[5] Lapislazuli3824 - Emerald 4 (Mid) - 23.0
+[6] Earthen - Emerald 4 (Top) - 31.0
+[7] .f_g. - Emerald 2 (Top) - 18.0
+[8] recoveringschizo - Gold 1-4 (Jungle) - 26.0
+[9] jayrich1101 - Diamond 3 (ADC) - 14.0
+[10] ffsfruit - Diamond 4 (Mid) - 15.0
+[11] different_lol - Master (ADC) - 6.0
+[12] Stl_Slayer_24 - Master (ADC) - 10.0
+[13] DavidEdge - Diamond 2 (Support) - 15.0
+[14] catinatin - Emerald 2 (Mid) - 17.0
+[15] axekiller1107 - Emerald 1 (Jungle) - 21.0
+[16] aratthe - Gold 1-4 (Support) - 32.0
+
+
+=== Captain Draft Pool (Ordered) ===
+[1] different_lol - Master (ADC) - 6.0
+[2] Stl_Slayer_24 - Master (ADC) - 10.0
+[3] jayrich1101 - Diamond 3 (ADC) - 14.0
+[4] ffsfruit - Diamond 4 (Mid) - 15.0
+[5] DavidEdge - Diamond 2 (Support) - 15.0
+[6] catinatin - Emerald 2 (Mid) - 17.0
+[7] .f_g. - Emerald 2 (Top) - 18.0
+[8] _lakuna - Emerald 4 (Jungle) - 21.0
+[9] axekiller1107 - Emerald 1 (Jungle) - 21.0
+[10] Lapislazuli3824 - Emerald 4 (Mid) - 23.0
+[11] mrlizwiz - Platinum 1-4 (Top) - 24.0
+[12] recoveringschizo - Gold 1-4 (Jungle) - 26.0
+[13] Earthen - Emerald 4 (Top) - 31.0
+[14] .stran - Platinum 1-4 (ADC) - 32.0
+[15] aratthe - Gold 1-4 (Support) - 32.0
+[16] VeryLastNerve - Silver 1-4 (Top) - 33.0
