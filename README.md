@@ -62,3 +62,4 @@ Deactivate Virtual Environment: `deactivate`
 6. Build Local React App ~> Live Draft Tool for Gepetto during Draft
 7. Add Region Button Press for NA (when switching regions) handling incorrect input
 8. Consider Friend Pools in draft picking
+9. TAB the output for draft results
