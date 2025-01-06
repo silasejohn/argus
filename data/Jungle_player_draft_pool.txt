@@ -1,30 +1,42 @@
 === Player Draft Pool (Jungle) ===
-[1] rebornmountainx - Grandmaster (Jungle) - 2.0
-[2] Ritty_lol - Master (Jungle) - 4.0
-[3] thespecial1 - Diamond 3 (Jungle) - 9.0
-[4] billy5832 - Diamond 2 (Jungle) - 10.0
+[1] rebornmountainx - Grandmaster (Jungle) - 3.0
+[2] Ritty_lol - Master (Jungle) - 3.0
+[3] billy5832 - Diamond 2 (Jungle) - 10.0
+[4] thespecial1 - Diamond 3 (Jungle) - 11.0
 [5] eeleeyas - Master (Jungle) - 13.0
 [6] Iateyosushi - Diamond 3 (Jungle) - 13.0
 [7] _hyperdragon - Diamond 3 (Jungle) - 14.0
 [8] ifearnobody - Diamond 3 (Jungle) - 14.0
 [9] akudame_ikumika - Diamond 2 (Jungle) - 16.0
 [10] Mcfasho - Emerald 2 (Jungle) - 17.0
-[11] kristangent. - Diamond 1 (Jungle) - 18.0
-[12] Kuroaf - Diamond 3 (Jungle) - 18.0
-[13] Epicphail2 - Gold 1-4 (Jungle) - 19.0
-[14] jinjguchiha - Emerald 2 (Jungle) - 21.0
-[15] Whynot99. - Emerald 3 (Jungle) - 22.0
-[16] bouncy.knight. - Emerald 3 (Jungle) - 23.0
-[17] superchicken. - Emerald 4 (Jungle) - 24.0
-[18] seagullslayer7 - Emerald 4 (Jungle) - 26.0
-[19] sithprincehammy - Platinum 1-4 (Jungle) - 28.0
-[20] notalxd - Platinum 1-4 (Jungle) - 28.0
-[21] Monturkey - Platinum 1-4 (Jungle) - 28.0
-[22] mctatertot - Emerald 3 (Jungle) - 29.0
-[23] Barretel - Platinum 1-4 (Jungle) - 31.0
-[24] theencry - Platinum 1-4 (Jungle) - 33.0
-[25] para.dox - Gold 1-4 (Jungle) - 33.0
-[26] tibbywibby11 - Gold 1-4 (Jungle) - 35.0
-[27] drjacka1 - Silver 1-4 (Jungle) - 40.0
-[28] brandis_ - Bronze 1-4 (Jungle) - 46.0
-[29] crusader_iii - Bronze 1-4 (Jungle) - 48.0
+[11] gziemiyo - Diamond 1 (Jungle) - 17.0
+[12] Kuroaf - Diamond 3 (Jungle) - 17.6
+[13] kristangent. - Diamond 1 (Jungle) - 18.0
+[14] Epicphail2 - Gold 1-4 (Jungle) - 19.0
+[15] jinjguchiha - Emerald 2 (Jungle) - 21.0
+[16] Whynot99. - Emerald 3 (Jungle) - 22.0
+[17] bouncy.knight. - Emerald 3 (Jungle) - 23.0
+[18] superchicken. - Emerald 4 (Jungle) - 24.0
+[19] sigilofaletheia - Platinum 1-4 (Jungle) - 25.8
+[20] seagullslayer7 - Emerald 4 (Jungle) - 26.0
+[21] sithprincehammy - Platinum 1-4 (Jungle) - 28.0
+[22] notalxd - Platinum 1-4 (Jungle) - 28.0
+[23] Monturkey - Platinum 1-4 (Jungle) - 28.0
+[24] mctatertot - Emerald 3 (Jungle) - 29.0
+[25] Barretel - Platinum 1-4 (Jungle) - 31.0
+[26] vegito3650 - Platinum 1-4 (Jungle) - 31.0
+[27] theencry - Platinum 1-4 (Jungle) - 33.0
+[28] para.dox - Gold 1-4 (Jungle) - 33.0
+[29] bredonis - Gold 1-4 (Jungle) - 34.0
+[30] tibbywibby11 - Gold 1-4 (Jungle) - 35.0
+[31] dameionaruto - Gold 1-4 (Jungle) - 39.0
+[32] drjacka1 - Silver 1-4 (Jungle) - 40.0
+[33] brandis_ - Bronze 1-4 (Jungle) - 46.0
+[34] crusader_iii - Bronze 1-4 (Jungle) - 48.0
+[35] peachyboop - Iron 1-4 (Jungle) - 49.0
+[36] Lanciferp - Iron 1-4 (Jungle) - 50.0
+[37] melonorb - Iron 1-4 (Jungle) - 50.0
+
+
+Total Entries: 37
+Average Points (Jungle): 25.929729729729733

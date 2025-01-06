@@ -1,23 +1,30 @@
 === Player Draft Pool (ADC) ===
-[1] adlking - Master (ADC) - 3.0
-[2] me.pp - Diamond 2 (ADC) - 9.0
-[3] Luytenn - Emerald 3 (ADC) - 18.0
-[4] xbalmer - Emerald 1 (ADC) - 18.0
-[5] Edmontosaurus - Emerald 2 (ADC) - 20.0
-[6] vanos____ - Emerald 2 (ADC) - 22.0
-[7] ausxh - Emerald 3 (ADC) - 25.0
-[8] baomatrix - Emerald 3 (ADC) - 25.0
-[9] MajinHollow - Platinum 1-4 (ADC) - 26.0
-[10] BirdP3Rson - Platinum 1-4 (ADC) - 26.0
-[11] Jbish96 - Platinum 1-4 (ADC) - 28.0
-[12] themilkalator - Platinum 1-4 (ADC) - 28.0
-[13] kybcat - Gold 1-4 (ADC) - 32.0
-[14] isolation19 - Gold 1-4 (ADC) - 35.0
-[15] fluffy_s - Silver 1-4 (ADC) - 39.0
-[16] Elvynya - Silver 1-4 (ADC) - 41.0
-[17] shotsfortots - Silver 1-4 (ADC) - 41.0
+[1] NicoTheBest8321 - Grandmaster (ADC) - 2.0
+[2] adlking - Master (ADC) - 3.0
+[3] me.pp - Diamond 2 (ADC) - 9.0
+[4] Luytenn - Emerald 3 (ADC) - 18.0
+[5] xbalmer - Emerald 1 (ADC) - 18.0
+[6] Edmontosaurus - Emerald 2 (ADC) - 20.0
+[7] vanos____ - Emerald 2 (ADC) - 22.0
+[8] themangomenace - Platinum 1-4 (ADC) - 23.0
+[9] baomatrix - Emerald 3 (ADC) - 25.0
+[10] ausxh - Emerald 3 (ADC) - 25.0
+[11] BirdP3Rson - Platinum 1-4 (ADC) - 26.0
+[12] MajinHollow - Platinum 1-4 (ADC) - 26.0
+[13] Jbish96 - Platinum 1-4 (ADC) - 28.0
+[14] themilkalator - Platinum 1-4 (ADC) - 28.0
+[15] kybcat - Gold 1-4 (ADC) - 32.0
+[16] isolation19 - Gold 1-4 (ADC) - 35.0
+[17] geekee - Gold 1-4 (ADC) - 35.0
 [18] Serided - Silver 1-4 (ADC) - 41.0
-[19] feeshstix - Silver 1-4 (ADC) - 43.0
-[20] jesshipo - Bronze 1-4 (ADC) - 45.0
-[21] crazymike1 - Bronze 1-4 (ADC) - 45.0
-[22] melonorb - Iron 1-4 (ADC) - 50.0
+[19] Elvynya - Silver 1-4 (ADC) - 41.0
+[20] shotsfortots - Silver 1-4 (ADC) - 41.0
+[21] feeshstix - Silver 1-4 (ADC) - 43.0
+[22] jesshipo - Bronze 1-4 (ADC) - 45.0
+[23] crazymike1 - Bronze 1-4 (ADC) - 45.0
+[24] melonorb - Iron 1-4 (ADC) - 50.0
+[25] fluffy_s - Silver 1-4 (ADC) - nan
+
+
+Total Entries: 25
+Average Points (ADC): 27.24

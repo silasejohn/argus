@@ -14,6 +14,25 @@ from bs4 import BeautifulSoup
 from random import randint
 import json
 import utility as util
+import pandas as pd
+
+### captains as in order for pick order
+captains = ['VeryLastNerve',
+            '_lakuna',
+            '.stran',
+            'mrlizwiz',
+            'Lapislazuli3824',
+            'Earthen',
+            '.f_g.',
+            'recoveringschizo',
+            'jayrich1101', 
+            'ffsfruit',
+            'different_lol',
+            'Stl_Slayer_24',
+            'DavidEdge', 
+            'catinatin', 
+            'axekiller1107',
+            'aratthe']
 
 # summ region
 # multi.gg op.gg or IGN
@@ -70,7 +89,7 @@ class LeagueProfileScraper:
 
     @staticmethod
     # Function to fetch, query, and retrieve all relevant summoner stats
-    def query_summoner_stats(original_query, sleep=True):
+    def query_summoner_stats(discord_username, original_query, sleep=True):
 
         LeagueProfileScraper.reset_bool_flags_to_false()
 
@@ -122,8 +141,6 @@ class LeagueProfileScraper:
         # Calculate the peak rank across multiple accounts and seasons
         output = LeagueProfileScraper.calculate_multi_acccount_multi_season_peak_rank()
         time.sleep(0.5)  # Random sleep
-
-        # LeagueProfileScraper.driver.quit()  # Close the browser
 
         if output == -1:
             if summoner_profiles:
@@ -316,10 +333,6 @@ class LeagueProfileScraper:
             print(f"{util.YELLOW}Handling Profile Type: Single Search...{util.RESET}")
             search_url = query
             LeagueProfileScraper.driver.get(search_url)  # Open the search URL directly
-
-        # elif LeagueProfileScraper.isProfileMultiSearch:
-        #     print(f"{util.YELLOW}Handling Profile Type: Multi Search...{util.RESET}")
-        #     sys.exit()
 
         elif LeagueProfileScraper.isProfileNonStandard:
             print(f"{util.YELLOW}Handling Profile Type: Non-Standard...{util.RESET}")
@@ -592,7 +605,7 @@ class LeagueProfileScraper:
             # replace " LP" with empty string and convert to integer
             lp_as_int = int(current_lp.text.replace(" LP", ""))
             rank_score = LeagueProfileScraper.RANKING_SYSTEM[current_tier.text] + (lp_as_int*.01)
-            rank_idx = f"[{summoner_ign}] current_season_rank"
+            rank_idx = f"[{summoner_ign}] current_rank_ego_split"
             LeagueProfileScraper.rank_info[rank_idx] = {"tier": current_tier.text, "lp": current_lp.text, "rank_score": rank_score}
 
             peak_rank_container = rank_info_container.find_element(By.XPATH, "//*[contains(@class, 'css-p09zgi') and contains(@class, 'e1xo3xwn0')]")
@@ -604,7 +617,7 @@ class LeagueProfileScraper:
             # use the ranking system to score the peak rank
             lp_as_int = int(peak_lp.text.replace(" LP", ""))
             rank_score = LeagueProfileScraper.RANKING_SYSTEM[peak_tier.text] + (lp_as_int*.01)
-            rank_idx = f"[{summoner_ign}] current_season_peak"
+            rank_idx = f"[{summoner_ign}] peak_rank_ego_split"
             LeagueProfileScraper.rank_info[rank_idx] = {"tier": peak_tier.text, "lp": peak_lp.text, "rank_score": rank_score}
         except NoSuchElementException as e:
             print(f"{util.RED}No Current Rank Info Found!{util.RESET}")
@@ -635,7 +648,7 @@ class LeagueProfileScraper:
                 lp_as_int = int(lp.replace(" LP", ""))
                 rank_score = LeagueProfileScraper.RANKING_SYSTEM[tier] + (lp_as_int*.01)
                 rank_idx = f"[{summoner_ign}] {season}"
-                LeagueProfileScraper.rank_info[rank_idx] = {"tier": tier, "lp": lp, "rank_score": rank_score}
+                LeagueProfileScraper.rank_info[rank_idx] = {"tier": tier, "lp": lp + " LP", "rank_score": rank_score}
         except NoSuchElementException as e:
             print(f"{util.RED}No Prior Rank Info Found!{util.RESET}")
 
@@ -690,38 +703,44 @@ summoner_ign_na_example = "dont ever stop #NA1"
 summoner_ign_euw_example = "Gojo Satoru #30082"
 na_profile_example = "https://www.op.gg/summoners/na/dont%20ever%20stop-NA1"
 euw_profile_example = "https://www.op.gg/summoners/euw/Gojo%20Satoru-30082"
-
-# one high ranked, one non-rank >30 acccount 
 na_multisearch_example = "https://www.op.gg/multisearch/na?summoners=xenux%23xenux%2Clordofthewhites%23na1"
-
-# one ranked, one <30 account
 na_multisearch_example_2 = "https://www.op.gg/multisearch/na?summoners=Doggo%233806%2Cdont+ever+stop%23NA1"
-
-# euw multirank
 euw_multisearch_example = "https://www.op.gg/multisearch/euw?summoners=Gojo+Satoru%2330082%2CWefty%2369420"
-
-# 2 high ranked multisearch 
 na_multisearch_example_3 = "https://www.op.gg/multisearch/na?summoners=Stl+slayer+24%2CBoyrider%23fmboy"
-
-# incorrect nonstandard input example
 incorrect_example = "dont ever stop"
-
 first_query = na_multisearch_example_3
-
-# example_list = [first_query]
 example_list = [summoner_ign_na_example, summoner_ign_euw_example, na_profile_example, euw_profile_example, na_multisearch_example, na_multisearch_example_2, euw_multisearch_example, na_multisearch_example_3, incorrect_example]
 
-for first_query in example_list:
-    # Perform the search
-    print(f"Query {counter}: {first_query}")
-    search_results, summoner_ign = LeagueProfileScraper.query_summoner_stats(first_query, sleep=False)
-    query_results[summoner_ign] = search_results
-    # MATCHA ... replace summoner_ign with discord_username when integrating the spreadsheet input for loop
-    # MATCHA ... reformat print statements with better formatting + colors
+# import csv as pd 
+draft_pool_df = pd.read_csv("data/simulation_data_with_points.csv")
+opgg_link_list = draft_pool_df['opgg_link']
 
-    # print(f"Search results: {search_results}")
-    counter += 1
+# iterate through 'opgg_link' column in the dataframe
+counter = 1
+for index, row in draft_pool_df.iterrows():
+    # get important rows 
+    opgg_link = row['opgg_link']
+    discord_username = row['discord_username']
+    if discord_username not in captains:
+        continue
+    primary_role = row['primary_role']
+    secondary_role = row['secondary_role']
+    secondary_role_skill_level = row['secondary_role_skill_level']
+    stated_peak_rank = row['peak_rank_2024_split3']
+    if secondary_role_skill_level == "Equal":
+        print(f"Query {counter}: {discord_username} | {primary_role}, {secondary_role} | {stated_peak_rank}")
+    else:
+        print(f"Query {counter}: {discord_username} | {primary_role} | {stated_peak_rank}")
 
+    print(f"Query {counter}: {opgg_link}")
+    search_results, summoner_ign = LeagueProfileScraper.query_summoner_stats(discord_username, opgg_link, sleep=False)
+    query_results[discord_username] = search_results
+    
+    # temp window limit logic
+    # if counter >= 5:
+    #     break
+    # counter += 1
+    
 LeagueProfileScraper.driver.quit()  # Close the browser
 print(f"\n{util.GREEN}Driver Quit {query_results}{util.RESET}")
 

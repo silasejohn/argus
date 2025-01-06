@@ -1,29 +1,41 @@
 === Player Draft Pool (Mid) ===
 [1] NicoTheBest8321 - Grandmaster (Mid) - 2.0
-[2] Xellius - Master (Mid) - 7.0
-[3] ririkaririka - Master (Mid) - 8.0
-[4] Pyrosi - Master (Mid) - 12.0
-[5] yeetyoteyate - Diamond 3 (Mid) - 13.0
-[6] bluewu. - Diamond 2 (Mid) - 14.0
-[7] hwasal06 - Diamond 1 (Mid) - 15.0
-[8] kessler_kora - Emerald 4 (Mid) - 16.0
-[9] gziemiyo - Diamond 1 (Mid) - 17.0
-[10] karismxtic - Diamond 4 (Mid) - 18.0
-[11] Lord Tubbyton - Emerald 2 (Mid) - 20.25
-[12] numberzer0 - Emerald 2 (Mid) - 21.0
-[13] 0nlySinful - Emerald 4 (Mid) - 23.0
-[14] slaveknightkos - Emerald 3 (Mid) - 24.0
-[15] aapathyy - Platinum 1-4 (Mid) - 25.0
+[2] ririkaririka - Master (Mid) - 8.0
+[3] Pyrosi - Master (Mid) - 12.0
+[4] yeetyoteyate - Diamond 3 (Mid) - 13.0
+[5] bluewu. - Diamond 2 (Mid) - 14.0
+[6] hwasal06 - Diamond 1 (Mid) - 15.0
+[7] kessler_kora - Emerald 4 (Mid) - 16.0
+[8] gziemiyo - Diamond 1 (Mid) - 17.0
+[9] xenux - Emerald 3 (Mid) - 21.0
+[10] numberzer0 - Emerald 2 (Mid) - 21.0
+[11] vanos____ - Emerald 2 (Mid) - 22.0
+[12] 0nlySinful - Emerald 4 (Mid) - 23.0
+[13] slaveknightkos - Emerald 3 (Mid) - 24.0
+[14] aapathyy - Platinum 1-4 (Mid) - 25.0
+[15] _aly39_ - Platinum 1-4 (Mid) - 26.0
 [16] blizzardbear101 - Emerald 4 (Mid) - 26.0
-[17] _aly39_ - Platinum 1-4 (Mid) - 26.0
-[18] theotherbubble - Gold 1-4 (Mid) - 28.0
-[19] owlbirdy - Gold 1-4 (Mid) - 32.0
-[20] darkll - Gold 1-4 (Mid) - 33.0
-[21] Maxwelljrm - Gold 1-4 (Mid) - 33.0
-[22] just.neo - Gold 1-4 (Mid) - 35.0
-[23] SwooshWRLD - Gold 1-4 (Mid) - 37.0
-[24] dameionaruto - Gold 1-4 (Mid) - 39.0
-[25] icebirb. - Silver 1-4 (Mid) - 40.0
-[26] datgillyweed - Bronze 1-4 (Mid) - 44.0
-[27] angelofpaper2 - Silver 1-4 (Mid) - 47.0
-[28] Skymoare - Bronze 1-4 (Mid) - 48.0
+[17] MajinHollow - Platinum 1-4 (Mid) - 26.0
+[18] Promech - Platinum 1-4 (Mid) - 26.0
+[19] theotherbubble - Gold 1-4 (Mid) - 28.0
+[20] themilkalator - Platinum 1-4 (Mid) - 28.0
+[21] owlbirdy - Gold 1-4 (Mid) - 32.0
+[22] darkll - Gold 1-4 (Mid) - 33.0
+[23] Maxwelljrm - Gold 1-4 (Mid) - 33.0
+[24] just.neo - Gold 1-4 (Mid) - 35.0
+[25] chaos0002 - Gold 1-4 (Mid) - 36.0
+[26] SwooshWRLD - Gold 1-4 (Mid) - 37.0
+[27] dameionaruto - Gold 1-4 (Mid) - 39.0
+[28] icebirb. - Silver 1-4 (Mid) - 40.0
+[29] Serided - Silver 1-4 (Mid) - 41.0
+[30] datgillyweed - Bronze 1-4 (Mid) - 44.0
+[31] angelofpaper2 - Silver 1-4 (Mid) - 47.0
+[32] Skymoare - Bronze 1-4 (Mid) - 48.0
+[33] Warmpikmin - Iron 1-4 (Mid) - 49.0
+[34] Xellius - Master (Mid) - nan
+[35] karismxtic - Diamond 4 (Mid) - nan
+[36] Lord Tubbyton - Emerald 2 (Mid) - nan
+
+
+Total Entries: 36
+Average Points (Mid): 25.194444444444443

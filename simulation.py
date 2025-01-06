@@ -80,16 +80,49 @@ with open('data/player_draft_pool.txt', 'w') as file:
         player_idx += 1
 
 # export player draft pool by role to 5 more text files
+role_pool_df = pd.read_csv('data/simulation_data_with_points.csv')
+role_pool_df = role_pool_df.drop(columns=['opgg_link', 'peak_rank_explanation', 'availability', 'interest_in_captain', 'reference_to_vln_league', 'playstyle_description', 'join_discord_flag', 'is_peak_rank_true_rank', 'champion_identity'])
+role_pool_df = role_pool_df[~role_pool_df['discord_username'].isin(captains)]
+role_pool_df = role_pool_df.sort_values(by='rank_score', ascending=True).reset_index(drop=True) # sort draft pool by rank
 for role in ROLES:
     with open(f'data/{role}_player_draft_pool.txt', 'w') as file:
+        total_points = 0
+        total_entries = 0
+
         player_idx = 1
         file.write(f"=== Player Draft Pool ({role}) ===\n")
+        
+        # filter by role
+
+        # print role pool df size
+        # print(f"role_pool_df: {role_pool_df.shape}")
+        players_pool_filtered_by_role = role_pool_df[role_pool_df['primary_role'] == role]
+        # print(f"role_pool_df: {role_pool_df.shape}")
+        # sys.exit()
+        
+        # create df subset player_pool_2 if players_pool['secondary_role'] == role as long as players_pool['secondary_role_skill_level'] == "Equal"
+        players_pool_2 = role_pool_df[role_pool_df['secondary_role'] == role]
+        players_pool_2 = players_pool_2[players_pool_2['secondary_role_skill_level'] == "Equal"]
+        
+        # in players_pool_2 replace 'primary_role' with 'secondary_role'
+        players_pool_2['primary_role'] = players_pool_2['secondary_role']
+
+        # concat players_pool_filtered_by_role and players_pool_2
+        players_pool_filtered_by_role = pd.concat([players_pool_filtered_by_role, players_pool_2], ignore_index=True)
+
         # sort by rank
-        players_pool_filtered_by_role = players_pool[players_pool['primary_role'] == role]
         players_pool_filtered_by_role = players_pool_filtered_by_role.sort_values(by=['rank_score'], ascending=True)
+
         for index, row in players_pool_filtered_by_role.iterrows():
+            if pd.notna(row['rank_score']):
+               total_points += row['rank_score']
+            total_entries += 1
             file.write(f"[{player_idx}] {row['discord_username']} - {row['peak_rank_2024_split3']} ({row['primary_role']}) - {row['rank_score']}\n")
             player_idx += 1
+        
+        file.write(f"\n\nTotal Entries: {total_entries}")
+        file.write(f"\nAverage Points ({role}): {total_points / total_entries}")
+        
 
 with open('data/cap_draft_pool.txt', 'w') as file:
     cap_idx = 1
@@ -240,6 +273,9 @@ with open('data/draft_in_progress.txt', 'w') as file:
 print("\n=== Final Draft Results ===")
 for captain_id, team in draft_results.items():
     print(f"\n{util.CYAN}Captain [{captain_id}] Team:")
+    # calculate total points
+    total_points = sum([player['rank_score'] for player in team])
+    print(f"\tTotal Points: {total_points}")  
     for player in team:
         print(f"{player['discord_username']} - {player['peak_rank_2024_split3']} ({player['primary_role']}) - {player['rank_score']}")
 
@@ -247,7 +283,10 @@ for captain_id, team in draft_results.items():
 with open('data/draft_results.txt', 'w') as file:
     file.write("=== Final Draft Results ===\n")
     for captain_id, team in draft_results.items():
-        file.write(f"\nCaptain [{captain_id}] Team:\n")        
+        file.write(f"\nCaptain [{captain_id}] Team:\n")     
+        # calculate total points
+        total_points = sum([player['rank_score'] for player in team])
+        file.write(f"Total Points: {total_points}\n")   
         for player in team:
             file.write(f"{player['discord_username']} - {player['peak_rank_2024_split3']} ({player['primary_role']}) - {player['rank_score']}\n")
 
