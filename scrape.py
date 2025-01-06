@@ -89,7 +89,7 @@ class LeagueProfileScraper:
 
     @staticmethod
     # Function to fetch, query, and retrieve all relevant summoner stats
-    def query_summoner_stats(discord_username, original_query, sleep=True):
+    def query_summoner_stats(original_query, sleep=True):
 
         LeagueProfileScraper.reset_bool_flags_to_false()
 
@@ -100,6 +100,11 @@ class LeagueProfileScraper:
 
         # Identify the query input
         query_list, summoner_profiles = LeagueProfileScraper.identify_query_input(original_query)
+        if query_list[0] == -1:
+            print(f"{util.RED}Invalid OP.GG LINK!{util.RESET}")
+            # wait for user input 
+            input(f"{util.YELLOW}Press <ENTER> to continue...{util.RESET}")
+            return -1, -1
         time.sleep(0.5)  # Random sleep
 
         # reset rank_info
@@ -123,8 +128,14 @@ class LeagueProfileScraper:
             time.sleep(0.5)  # Random sleep
 
             # Update the summoner profile
-            LeagueProfileScraper.update_opgg_summoner_profile()
+            status = LeagueProfileScraper.update_opgg_summoner_profile()
             time.sleep(0.5)  # Random sleep
+
+            if status == -1:
+                print(f"{util.RED}Failed to Access Player Profile!{util.RESET}")
+                # wait for user input 
+                input(f"{util.YELLOW}Press <ENTER> to continue...{util.RESET}")
+                continue
 
             # Expand the match history
             LeagueProfileScraper.expand_match_history()
@@ -219,36 +230,41 @@ class LeagueProfileScraper:
             LeagueProfileScraper.isProfileSummonerIGN = True
             print(f"[{util.CYAN}Profile Type{util.RESET}] {util.GREEN}Summoner IGN{util.RESET}")
         else: # non standard profile, handle in terminal
-            print(f"[{util.CYAN}Profile Type{util.RESET}] {util.RED}Incorrect Syntax{util.RESET}")
+            print(f"[{util.CYAN}Profile Type{util.RESET}] {util.RED}Non-Standard Profile{util.RESET}")
             print(f"[QUERY] {query}")
-            profileTypeHandled = False
-            while not profileTypeHandled:
-                print(f"{util.CYAN}Please Identify Type of Profile (1-4) and press <ENTER>:\n[1] Summoner IGN | [2] OP.GG Link | [3] OP.GG MultiSearch [4] Other{util.RESET}")
-                profile_type = int(input())
-                if profile_type == 1:
-                    LeagueProfileScraper.isProfileSummonerIGN = True
-                    print(f"{util.GREEN}Profile Type of ProfileSummonerIGN Assigned!{util.RESET}")
-                    profileTypeHandled = True
-                elif profile_type == 2:
-                    LeagueProfileScraper.isProfileSingleSearch = True
-                    print(f"{util.GREEN}Profile Type of ProfileSingleSearch Assigned!{util.RESET}")
-                    profileTypeHandled = True
-                elif profile_type == 3:
-                    LeagueProfileScraper.isProfileMultiSearch = True
-                    print(f"{util.GREEN}Profile Type of ProfileMultiSearch Assigned!{util.RESET}")
-                    profileTypeHandled = True
-                elif profile_type == 4:
-                    LeagueProfileScraper.isProfileNonStandard = True
-                    print(f"{util.GREEN}Profile Type of ProfileNonStandard Assigned!{util.RESET}")
-                    profileTypeHandled = True
-                else:
-                    print(f"{util.RED}Invalid Profile Type! Try Again...{util.RESET}")
-                    profileTypeHandled = False
+            # wait for user input 
+            input(f"{util.YELLOW}Press <ENTER> to continue...{util.RESET}")
+            return [-1], [-1]
+            # print(f"[{util.CYAN}Profile Type{util.RESET}] {util.RED}Incorrect Syntax{util.RESET}")
+            # print(f"[QUERY] {query}")
+            # profileTypeHandled = False
+            # while not profileTypeHandled:
+            #     print(f"{util.CYAN}Please Identify Type of Profile (1-4) and press <ENTER>:\n[1] Summoner IGN | [2] OP.GG Link | [3] OP.GG MultiSearch [4] Other{util.RESET}")
+            #     profile_type = int(input())
+            #     if profile_type == 1:
+            #         LeagueProfileScraper.isProfileSummonerIGN = True
+            #         print(f"{util.GREEN}Profile Type of ProfileSummonerIGN Assigned!{util.RESET}")
+            #         profileTypeHandled = True
+            #     elif profile_type == 2:
+            #         LeagueProfileScraper.isProfileSingleSearch = True
+            #         print(f"{util.GREEN}Profile Type of ProfileSingleSearch Assigned!{util.RESET}")
+            #         profileTypeHandled = True
+            #     elif profile_type == 3:
+            #         LeagueProfileScraper.isProfileMultiSearch = True
+            #         print(f"{util.GREEN}Profile Type of ProfileMultiSearch Assigned!{util.RESET}")
+            #         profileTypeHandled = True
+            #     elif profile_type == 4:
+            #         LeagueProfileScraper.isProfileNonStandard = True
+            #         print(f"{util.GREEN}Profile Type of ProfileNonStandard Assigned!{util.RESET}")
+            #         profileTypeHandled = True
+            #     else:
+            #         print(f"{util.RED}Invalid Profile Type! Try Again...{util.RESET}")
+            #         profileTypeHandled = False
 
-            # if profile type is non-standard, but it is handled 
-            query = input(f"{util.CYAN}Enter updated query link: {util.RESET}").replace("\n", "")
-            print(f"{util.YELLOW}Updated Query (pending approval): {query}{util.RESET}")
-            # MATCHA ... replace spreadsheet input csv with the new query instead of old "dirty" query input
+            # # if profile type is non-standard, but it is handled 
+            # query = input(f"{util.CYAN}Enter updated query link: {util.RESET}").replace("\n", "")
+            # print(f"{util.YELLOW}Updated Query (pending approval): {query}{util.RESET}")
+            # # MATCHA ... replace spreadsheet input csv with the new query instead of old "dirty" query input
         
         # return the query list if it is a multisearch query (multiple queries)
         if multisearch_query_list:
@@ -439,6 +455,7 @@ class LeagueProfileScraper:
 
                     # wait for "update" to register
                     print(f"{util.YELLOW}Updating...{util.RESET}")
+                    # MATCHA: increase timeout to fully updates the profile for recent scouting
                     LeagueProfileScraper.wait_for_element_to_load(By.XPATH, "//*[contains(@class, 'DISABLE') and contains(@class, 'css-1r09es5') and contains(@class, 'e17xj3f90')]")
                     print(f"{util.GREEN}Update Complete!{util.RESET}")
 
@@ -451,8 +468,11 @@ class LeagueProfileScraper:
 
             else: # updated within the last 2 minutes
                 print(f"{util.YELLOW}Next Update {content}..{util.RESET}")
+            
+            return 0 # success
         except Exception as e:
             print(f"{util.RED}Last-Update field not found: {e}{util.RESET}")
+            return -1 # failure
 
     @staticmethod
     # will expand accessible match history to at least 30 days (for more data)
@@ -733,7 +753,9 @@ for index, row in draft_pool_df.iterrows():
         print(f"Query {counter}: {discord_username} | {primary_role} | {stated_peak_rank}")
 
     print(f"Query {counter}: {opgg_link}")
-    search_results, summoner_ign = LeagueProfileScraper.query_summoner_stats(discord_username, opgg_link, sleep=False)
+    search_results, summoner_ign = LeagueProfileScraper.query_summoner_stats(opgg_link, sleep=False)
+    if search_results == -1:
+        continue
     query_results[discord_username] = search_results
     
     # temp window limit logic
