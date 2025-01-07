@@ -63,3 +63,4 @@ Deactivate Virtual Environment: `deactivate`
 7. Add Region Button Press for NA (when switching regions) handling incorrect input
 8. Consider Friend Pools in draft picking
 9. TAB the output for draft results
+10. determine the number of games for a given rank (in the rank_output csv)

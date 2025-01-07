@@ -9,7 +9,7 @@ from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.common.exceptions import TimeoutException, ElementClickInterceptedException, NoSuchElementException
 
-import time, sys
+import time, sys, csv
 from bs4 import BeautifulSoup
 from random import randint
 import json
@@ -111,6 +111,7 @@ class LeagueProfileScraper:
         LeagueProfileScraper.rank_info = {}
 
         query_counter = 1
+        summoner_ign = "nondescript_profile_name"
 
         if LeagueProfileScraper.driver is None:
             LeagueProfileScraper.driver = LeagueProfileScraper.get_web_driver()  # Initialize WebDriver
@@ -155,11 +156,11 @@ class LeagueProfileScraper:
 
         if output == -1:
             if summoner_profiles:
-                return summoner_profiles, summoner_ign
+                return summoner_profiles
             else:
-                return summoner_ign, summoner_ign
+                return summoner_ign
         else:
-            return output, summoner_ign
+            return output
 
         # Snapshot 1: Main Page
         # once the match history is expanded, take a snapshot of the main page
@@ -696,6 +697,135 @@ class LeagueProfileScraper:
             print(f"{util.RED}No Rank Info Found!{util.RESET}")
             return -1
 #############Driver code############
+
+RANK_POINTS = {
+    "Iron 4": 0,       "Iron 3": 1,      "Iron 2": 2,       "Iron 1": 3,
+    "Bronze 4": 4,     "Bronze 3": 5,    "Bronze 2": 6,     "Bronze 1": 7,
+    "Silver 4": 8,     "Silver 3": 9,    "Silver 2": 10,    "Silver 1": 11,
+    "Gold 4": 12,      "Gold 3": 13,     "Gold 2": 14,      "Gold 1": 15,
+    "Platinum 4": 16,  "Platinum 3": 17, "Platinum 2": 18,  "Platinum 1": 19,
+    "Emerald 4": 20,   "Emerald 3": 21,  "Emerald 2": 22,   "Emerald 1": 23,
+    "Diamond 4": 24,   "Diamond 3": 25,  "Diamond 2": 26,   "Diamond 1": 27,
+    "Master": 28,       "Grandmaster": 34,  "Challenger": 40,
+    "Iron": 1.5, "Bronze": 5.5, "Silver": 9.5, "Gold": 13.5, "Platinum": 17.5 # metal rank averages
+}
+
+
+def create_csv_rank_output(csv_name):
+    # create a new csv file with the rank output
+    input_json = "data/output/captain_rank_info.json"
+    with open(input_json, "r") as file_1:
+        data = json.load(file_1)
+
+    input_json_2 = "data/output/draft_rank_info_part_1.json"
+    with open(input_json_2, "r") as file_2:
+        data_2 = json.load(file_2)
+
+    # combine the two dictionaries
+    data.update(data_2)
+
+    # input csv into pd
+    draft_df = pd.read_csv("data/simulation_data_with_points.csv")
+
+    with open(csv_name, mode='w') as rank_file:
+        rank_writer = csv.writer(rank_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        headers = ["discord_username", "Summoner IGN", "Rank Score", "Stated Rank", "Peak Rank", "Rank Diff Score", "Current Ego Rank", "Peak Ego Rank", "S2024 S2", "S2024 S1", "S2023 S3", "S2023 S2", "S2023 S1"]
+        rank_writer.writerow(headers)
+
+        # using info from the json file & draft_df , write to the csv
+        for index, row in draft_df.iterrows():
+
+            discord_username, summoner_ign, rank_score, stated_rank, peak_rank, rank_diff_score, ego_rank, peak_ego_rank, s2024_s2, s2024_s1, s2023_s3, s2023_s2, s2023_s1 = "", "", "", "", "", "", "", "", "", "", "", "", ""
+
+            # from csv 
+            discord_username = row['discord_username']
+            rank_score = row['rank_score']
+            if discord_username == "gziemiyo":
+                break # temporary
+            stated_rank = row['peak_rank_2024_split3']
+
+            # from json
+            data_point_1 = data[discord_username][0]
+            data_point_2 = data[discord_username][1]
+            data_point_3 = data[discord_username][2]
+
+            data_point_list = [data_point_1, data_point_2, data_point_3]                
+
+            # extract summoner_ign from the data points
+            summoner_ign_1 = data_point_1.split(" ")[0].replace("[", "").replace("]", "")   
+            summoner_ign_2 = data_point_2.split(" ")[0].replace("[", "").replace("]", "")
+            summoner_ign_3 = data_point_3.split(" ")[0].replace("[", "").replace("]", "")     
+
+            # only keep unique summoner_ign of the 3
+            summoner_ign = list(set([summoner_ign_1, summoner_ign_2, summoner_ign_3]))
+            if len(summoner_ign) == 1:
+                summoner_ign = summoner_ign[0]
+            else:
+                summoner_ign = " | ".join(summoner_ign)
+
+            print(f"Summoner IGN: {summoner_ign}")
+
+            for datapoint in data_point_list:
+                season_data_point = datapoint.split("-")[0].strip().split("]")[1].strip()
+                if "2024 S2" in season_data_point:
+                    s2024_s2 = datapoint.split("]")[2].strip()
+                    print(f"2024 S2: {s2024_s2}")
+                elif "2024 S1" in season_data_point:
+                    s2024_s1 = datapoint.split("]")[2].strip()
+                    print(f"2024 S1: {s2024_s1}")
+                elif "2023 S3" in season_data_point:
+                    s2023_s3 = datapoint.split("]")[2].strip()
+                    print(f"2023 S3: {s2023_s3}")
+                elif "2023 S2" in season_data_point:
+                    s2023_s2 = datapoint.split("]")[2].strip()
+                    print(f"2023 S2: {s2023_s2}")
+                elif "2023 S1" in season_data_point:
+                    s2023_s1 = datapoint.split("]")[2].strip()
+                    print(f"2023 S1: {s2023_s1}")
+                elif "peak_rank_ego_split" in season_data_point:
+                    peak_ego_rank = datapoint.split("]")[2].strip()
+                    print(f"Peak Ego Rank: {peak_ego_rank}")
+                elif "current_rank_ego_split" in season_data_point:
+                    ego_rank = datapoint.split("]")[2].strip()
+                    print(f"Current Ego Rank: {ego_rank}")
+
+            # calculate rank diff score
+            highest_rank = data_point_1.split("]")[2].strip() # highest rank is the first rank
+            peak_rank = highest_rank
+
+            # highest rank is in the form of 'Diamond 3 46 LP' or 'Masters 387 LP", split into tier and (lp without "LP")
+            apex_ranks = ["Challenger", "Grandmaster", "Master"]
+            metal_ranks = ["Iron", "Bronze", "Silver", "Gold", "Platinum"]
+            if highest_rank.split(" ")[0] in apex_ranks:
+                highest_rank_tier = highest_rank.split(" ")[0]
+                highest_rank_lp = highest_rank.split(" ")[1]
+            else:
+                highest_rank_tier = highest_rank.split(" ")[0] + " " + highest_rank.split(" ")[1]
+                highest_rank_lp = highest_rank.split(" ")[2]
+
+            # lp at min will be 0 at at max will be 1.00, add to the tier score
+            # print(f"Highest Rank: {highest_rank_tier} {highest_rank_lp}")
+            highest_rank_score = RANK_POINTS[highest_rank_tier] + (int(highest_rank_lp) * .01)
+
+            if stated_rank.split(" ")[0] in metal_ranks:
+                stated_rank_tier = stated_rank.split(" ")[0].strip()
+            elif stated_rank.split(" ")[0] in apex_ranks:
+                stated_rank_tier = stated_rank.split(" ")[0].strip()
+            else:
+                stated_rank_tier = stated_rank.split(" ")[0].strip() + " " + stated_rank.split(" ")[1].strip()
+
+            # print(f"Stated Rank: {stated_rank_tier}")
+            # print(f"Highest Rank Score: {highest_rank_score}")
+            # print(f"Stated Rank Score: {RANK_POINTS[stated_rank_tier]}")
+            rank_diff_score = RANK_POINTS[stated_rank_tier] - highest_rank_score
+
+            rank_writer.writerow([discord_username, summoner_ign, rank_score, stated_rank, peak_rank, rank_diff_score, ego_rank, peak_ego_rank, s2024_s2, s2024_s1, s2023_s3, s2023_s2, s2023_s1])
+        
+# POST SIMULTION CSV FORMATTING
+create_csv_rank_output("data/output/rank_output.csv")
+
+sys.exit()
+
 query_results = {}  # Store search results for each query
 counter = 1
 
@@ -741,8 +871,8 @@ for index, row in draft_pool_df.iterrows():
     # get important rows 
     opgg_link = row['opgg_link']
     discord_username = row['discord_username']
-    if discord_username not in captains:
-        continue
+    # if discord_username not in captains:
+    #     continue
     primary_role = row['primary_role']
     secondary_role = row['secondary_role']
     secondary_role_skill_level = row['secondary_role_skill_level']
@@ -753,10 +883,14 @@ for index, row in draft_pool_df.iterrows():
         print(f"Query {counter}: {discord_username} | {primary_role} | {stated_peak_rank}")
 
     print(f"Query {counter}: {opgg_link}")
-    search_results, summoner_ign = LeagueProfileScraper.query_summoner_stats(opgg_link, sleep=False)
+    search_results = LeagueProfileScraper.query_summoner_stats(opgg_link, sleep=False)
     if search_results == -1:
         continue
     query_results[discord_username] = search_results
+
+    # Write the dictionary to a JSON file
+    with open("data/search_results.json", "w") as json_file:
+        json.dump(query_results, json_file, indent=2)
     
     # temp window limit logic
     # if counter >= 5:
@@ -765,9 +899,5 @@ for index, row in draft_pool_df.iterrows():
     
 LeagueProfileScraper.driver.quit()  # Close the browser
 print(f"\n{util.GREEN}Driver Quit {query_results}{util.RESET}")
-
-# Write the dictionary to a JSON file
-with open("data/search_results.json", "w") as json_file:
-    json.dump(query_results, json_file, indent=2)
 
 ####################################
