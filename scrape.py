@@ -667,6 +667,9 @@ class LeagueProfileScraper:
 
                 # use the ranking system to score the peak rank
                 lp_as_int = int(lp.replace(" LP", ""))
+                # if tier has the number 5 in the string, change it to 4
+                if "5" in tier:
+                    tier = tier.replace("5", "4")
                 rank_score = LeagueProfileScraper.RANKING_SYSTEM[tier] + (lp_as_int*.01)
                 rank_idx = f"[{summoner_ign}] {season}"
                 LeagueProfileScraper.rank_info[rank_idx] = {"tier": tier, "lp": lp + " LP", "rank_score": rank_score}
@@ -680,11 +683,30 @@ class LeagueProfileScraper:
         output_peak_ranks = []
         if LeagueProfileScraper.rank_info:
             print(f"{util.GREEN}Rank Info Scraped!{util.RESET}")
+
+            # # export all the keys in the rank_info dictionary
+            # rank_keys = LeagueProfileScraper.rank_info.keys()
+
+            # # find the key with 'current_rank_current_split'
+            # current_rank_key = [key for key in rank_keys if "current_rank_ego_split" in key]
+
+            # # find the key with 'peak_rank_current_split'
+            # peak_rank_key = [key for key in rank_keys if "peak_rank_ego_split" in key]
+
+            # # add the value for the current rank key to a var
+            # current_rank = LeagueProfileScraper.rank_info[current_rank_key[0]]
+
             # sort rank_score in descending order to identify top 3 ranks in the prior ranks
             sorted_rank_info = sorted(LeagueProfileScraper.rank_info.items(), key=lambda x: x[1]["rank_score"], reverse=True)
 
             # only keep top 3 ranks 
             sorted_rank_info = sorted_rank_info[:3]
+
+            # # add the current rank to the sorted rank info
+            # sorted_rank_info.append((current_rank_key[0], current_rank))
+            # print(f"Sorted Rank Info: {sorted_rank_info}")
+
+            # sys.exit()
             
             # pretty print output of the sorted rank info
             print("\nHighest Ranks:")
@@ -696,8 +718,10 @@ class LeagueProfileScraper:
         else:
             print(f"{util.RED}No Rank Info Found!{util.RESET}")
             return -1
-#############Driver code############
-
+        
+###############################
+### OUTPUT RANK INFO TO CSV ###
+###############################
 RANK_POINTS = {
     "Iron 4": 0,       "Iron 3": 1,      "Iron 2": 2,       "Iron 1": 3,
     "Bronze 4": 4,     "Bronze 3": 5,    "Bronze 2": 6,     "Bronze 1": 7,
@@ -710,51 +734,73 @@ RANK_POINTS = {
     "Iron": 1.5, "Bronze": 5.5, "Silver": 9.5, "Gold": 13.5, "Platinum": 17.5 # metal rank averages
 }
 
-
 def create_csv_rank_output(csv_name):
     # create a new csv file with the rank output
-    input_json = "data/output/captain_rank_info.json"
+    input_json = "data/output/draft_rank_info_part_1.json"
     with open(input_json, "r") as file_1:
         data = json.load(file_1)
 
-    input_json_2 = "data/output/draft_rank_info_part_1.json"
+    input_json_2 = "data/output/draft_rank_info_part_2.json"
     with open(input_json_2, "r") as file_2:
         data_2 = json.load(file_2)
 
-    # combine the two dictionaries
+    input_json_3 = "data/output/draft_rank_info_part_3.json"
+    with open(input_json_3, "r") as file_3:
+        data_3 = json.load(file_3)
+
+    input_json_4 = "data/output/draft_rank_info_part_4.json"
+    with open(input_json_4, "r") as file_4:
+        data_4 = json.load(file_4)
+
+    # combine the four dictionaries
     data.update(data_2)
+    data.update(data_3)
+    data.update(data_4)
 
     # input csv into pd
     draft_df = pd.read_csv("data/simulation_data_with_points.csv")
 
     with open(csv_name, mode='w') as rank_file:
         rank_writer = csv.writer(rank_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        headers = ["discord_username", "Summoner IGN", "Rank Score", "Stated Rank", "Peak Rank", "Rank Diff Score", "Current Ego Rank", "Peak Ego Rank", "S2024 S2", "S2024 S1", "S2023 S3", "S2023 S2", "S2023 S1"]
+        headers = ["discord_username", "Summoner IGN", "Positions", "Rank Score", "Stated Rank", "Peak Rank", "Rank Diff Score", "Current Ego Rank", "Peak Ego Rank", "S2024 S2", "S2024 S1", "S2023 S3", "S2023 S2", "S2023 S1"]
         rank_writer.writerow(headers)
 
         # using info from the json file & draft_df , write to the csv
         for index, row in draft_df.iterrows():
 
-            discord_username, summoner_ign, rank_score, stated_rank, peak_rank, rank_diff_score, ego_rank, peak_ego_rank, s2024_s2, s2024_s1, s2023_s3, s2023_s2, s2023_s1 = "", "", "", "", "", "", "", "", "", "", "", "", ""
+            discord_username, summoner_ign, positions, rank_score, stated_rank, peak_rank, rank_diff_score, ego_rank, peak_ego_rank, s2024_s2, s2024_s1, s2023_s3, s2023_s2, s2023_s1 = "", "", "", "", "", "", "", "", "", "", "", "", "", ""
 
             # from csv 
             discord_username = row['discord_username']
             rank_score = row['rank_score']
-            if discord_username == "gziemiyo":
-                break # temporary
+            if discord_username == "feeshstix" or discord_username == "kie2522" or discord_username == "melonorb":
+                continue
             stated_rank = row['peak_rank_2024_split3']
+            position_primary = row['primary_role']
+            position_secondary = row['secondary_role']
+            position_secondary_confidence = row['secondary_role_skill_level']
+            if position_secondary_confidence == "Equal":
+                positions = f"{position_primary}|{position_secondary}"
+            else:
+                positions = position_primary
 
             # from json
             data_point_1 = data[discord_username][0]
             data_point_2 = data[discord_username][1]
-            data_point_3 = data[discord_username][2]
-
-            data_point_list = [data_point_1, data_point_2, data_point_3]                
+            try:
+                data_point_3 = data[discord_username][2]
+                data_point_list = [data_point_1, data_point_2, data_point_3]              
+            except IndexError as e:
+                data_point_3 = ""
+                data_point_list = [data_point_1, data_point_2]              
 
             # extract summoner_ign from the data points
-            summoner_ign_1 = data_point_1.split(" ")[0].replace("[", "").replace("]", "")   
-            summoner_ign_2 = data_point_2.split(" ")[0].replace("[", "").replace("]", "")
-            summoner_ign_3 = data_point_3.split(" ")[0].replace("[", "").replace("]", "")     
+            summoner_ign_1 = data_point_1.split("]")[0].replace("[", "")
+            summoner_ign_2 = data_point_2.split("]")[0].replace("[", "")
+            try :
+                summoner_ign_3 = data_point_3.split("]")[0].replace("[", "")
+            except IndexError as e:
+                summoner_ign_3 = summoner_ign_2
 
             # only keep unique summoner_ign of the 3
             summoner_ign = list(set([summoner_ign_1, summoner_ign_2, summoner_ign_3]))
@@ -819,13 +865,15 @@ def create_csv_rank_output(csv_name):
             # print(f"Stated Rank Score: {RANK_POINTS[stated_rank_tier]}")
             rank_diff_score = RANK_POINTS[stated_rank_tier] - highest_rank_score
 
-            rank_writer.writerow([discord_username, summoner_ign, rank_score, stated_rank, peak_rank, rank_diff_score, ego_rank, peak_ego_rank, s2024_s2, s2024_s1, s2023_s3, s2023_s2, s2023_s1])
+            rank_writer.writerow([discord_username, summoner_ign, positions, rank_score, stated_rank, peak_rank, rank_diff_score, ego_rank, peak_ego_rank, s2024_s2, s2024_s1, s2023_s3, s2023_s2, s2023_s1])
         
 # POST SIMULTION CSV FORMATTING
-create_csv_rank_output("data/output/rank_output.csv")
-
+create_csv_rank_output("data/output/rank_output_full_pool.csv")
 sys.exit()
 
+###################
+### DRIVER CODE ###
+###################
 query_results = {}  # Store search results for each query
 counter = 1
 
@@ -867,12 +915,19 @@ opgg_link_list = draft_pool_df['opgg_link']
 
 # iterate through 'opgg_link' column in the dataframe
 counter = 1
+start_working_flag = False
 for index, row in draft_pool_df.iterrows():
     # get important rows 
     opgg_link = row['opgg_link']
     discord_username = row['discord_username']
     # if discord_username not in captains:
     #     continue
+
+    if discord_username == "Promech":
+        start_working_flag = True
+
+    if not start_working_flag:
+        continue
     primary_role = row['primary_role']
     secondary_role = row['secondary_role']
     secondary_role_skill_level = row['secondary_role_skill_level']
@@ -889,7 +944,7 @@ for index, row in draft_pool_df.iterrows():
     query_results[discord_username] = search_results
 
     # Write the dictionary to a JSON file
-    with open("data/search_results.json", "w") as json_file:
+    with open("data/output/draft_rank_info_part_4.json", "w") as json_file:
         json.dump(query_results, json_file, indent=2)
     
     # temp window limit logic
