@@ -64,3 +64,6 @@ Deactivate Virtual Environment: `deactivate`
 8. Consider Friend Pools in draft picking
 9. TAB the output for draft results
 10. determine the number of games for a given rank (in the rank_output csv)
+11. get wr / champs played / per mode per player (combine accounts, seperate accounts) ... try rewind.lol?
+12. Look at chart for potential cap recruitments
+13. live draft dashbaord (look pic of inspo)

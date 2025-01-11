@@ -49,6 +49,7 @@ captains = ['VeryLastNerve',
 
 # open draft info spreadsheet as pandas df
 draft_pool_df = pd.read_csv('data/simulation_data_with_points.csv')
+# draft_pool_df = pd.read_csv('rewind/input_data.csv')
 draft_pool_df = draft_pool_df.drop(columns=['opgg_link', 'peak_rank_explanation', 'availability', 'interest_in_captain', 'reference_to_vln_league', 'playstyle_description', 'join_discord_flag', 'is_peak_rank_true_rank', 'champion_identity', 'secondary_role_skill_level'])
 
 # print all unique 'discord_username' values
