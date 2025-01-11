@@ -1,47 +1,47 @@
 === Player Draft Pool (Support) ===
-[1] levizxy - Grandmaster (Support) - 2.0
-[2] pandaemonium9213 - Master (Support) - 9.0
-[3] borria - Master (Support) - 9.0
-[4] Ponygafo - Diamond 4 (Support) - 12.0
-[5] chubbydumpling - Platinum 1-4 (Support) - 14.0
-[6] GourmetCookies - Emerald 1 (Support) - 16.0
-[7] w0ld - Emerald 1 (Support) - 17.0
-[8] Drysicle - Emerald 2 (Support) - 20.0
-[9] bouncy.knight. - Emerald 3 (Support) - 23.0
-[10] themangomenace - Platinum 1-4 (Support) - 23.0
-[11] ausxh - Emerald 3 (Support) - 25.0
-[12] amuchu - Platinum 1-4 (Support) - 25.0
-[13] sigilofaletheia - Platinum 1-4 (Support) - 25.8
-[14] Jerboas - Platinum 1-4 (Support) - 26.0
-[15] _aly39_ - Platinum 1-4 (Support) - 26.0
-[16] austinsilva - Emerald 4 (Support) - 27.0
-[17] Jbish96 - Platinum 1-4 (Support) - 28.0
-[18] mctatertot - Emerald 3 (Support) - 29.0
-[19] Barretel - Platinum 1-4 (Support) - 31.0
-[20] vegito3650 - Platinum 1-4 (Support) - 31.0
-[21] Bhrisy - Platinum 1-4 (Support) - 31.0
-[22] para.dox - Gold 1-4 (Support) - 33.0
-[23] geekee - Gold 1-4 (Support) - 35.0
-[24] Flaccid4U - Gold 1-4 (Support) - 35.0
-[25] jun_with_an_e - Gold 1-4 (Support) - 35.0
-[26] atamaex - Gold 1-4 (Support) - 36.2
-[27] SwooshWRLD - Gold 1-4 (Support) - 37.0
-[28] Goku2057 - Gold 1-4 (Support) - 38.0
-[29] iamrowx - Gold 1-4 (Support) - 38.0
-[30] Tiger58 - Gold 1-4 (Support) - 39.0
-[31] icebirb. - Silver 1-4 (Support) - 40.0
-[32] Elvynya - Silver 1-4 (Support) - 41.0
-[33] shotsfortots - Silver 1-4 (Support) - 41.0
-[34] feeshstix - Silver 1-4 (Support) - 43.0
-[35] datgillyweed - Bronze 1-4 (Support) - 44.0
-[36] kie2522 - Silver 1-4 (Support) - 45.0
-[37] jesshipo - Bronze 1-4 (Support) - 45.0
-[38] crazymike1 - Bronze 1-4 (Support) - 45.0
-[39] joshe21 - Bronze 1-4 (Support) - 46.0
-[40] peachyboop - Iron 1-4 (Support) - 49.0
-[41] Lord Tubbyton - Emerald 2 (Support) - nan
-[42] fluffy_s - Silver 1-4 (Support) - nan
+[1] Prince#LuvGF | Levi#NA111 - Grandmaster 491 LP (Support) - 2
+[2] His Brother#ETHAN - Master 180 LP (Support) - 9
+[3] Borria#NA1 - Master 32 LP (Support) - 9
+[4] Pony#gafo - Diamond 4 44 LP (Support) - 12
+[5] CARPETBOMBCORKI#NA1 - Diamond 4 0 LP (Support) - 14
+[6] BoyHoleBuccaneer#Boom | GourmetCookies#NA1 - Master 0 LP (Support) - 16
+[7] Death#March - Diamond 2 6 LP (Support) - 17
+[8] Lord Tubbyton#NA1 - Diamond 4 16 LP (Support) - 20
+[9] Drysicle#NA1 - Diamond 4 27 LP (Support) - 20
+[10] ChewyLight28#NA1 - Emerald 2 0 LP (Support) - 23
+[11] Bouncy#yup - Diamond 4 26 LP (Support) - 23
+[12] Amuchu#NA1 - Emerald 2 4 LP (Support) - 25
+[13] Sukiha#owo - Emerald 2 16 LP (Support) - 25
+[14] AlyXO#3976 - Emerald 3 0 LP (Support) - 26
+[15] Dan Smith#KLLR7 - Emerald 3 48 LP (Support) - 26
+[16] SigilOfAletheia#NA1 - Emerald 2 21 LP (Support) - 26
+[17] Bound#WVU1 - Emerald 4 30 LP (Support) - 27
+[18] GumbaStomp69#NA1 - Platinum 1 16 LP (Support) - 28
+[19] GAMER DESTROYER#LLT | Gamer Destroyer#dump - Emerald 4 0 LP (Support) - 29
+[20] Rose#630 - Gold 1 64 LP (Support) - 30
+[21] Barretel#Shaco - Platinum 4 33 LP (Support) - 31
+[22] Bhrisy#NA69 - Platinum 3 92 LP (Support) - 31
+[23] ICarryOrILose#FREAK - Platinum 2 44 LP (Support) - 31
+[24] dont ever stop#NA1 - Gold 3 82 LP (Support) - 33
+[25] NemakuNa#NA1 - Platinum 4 94 LP (Support) - 35
+[26] jun#9845 - Emerald 4 18 LP (Support) - 35
+[27] Geekèé#0001 - Gold 2 76 LP (Support) - 35
+[28] Placid4U TTV#NA1 | TryingToVibe#NA1 - Platinum 4 17 LP (Support) - 35
+[29] Atamaex#NA1 - Gold 2 30 LP (Support) - 36
+[30] SwooshWRLD#0334 - Platinum 4 0 LP (Support) - 37
+[31] goku2057#NA1 - Gold 2 41 LP (Support) - 38
+[32] Row#RowX - Gold 2 95 LP (Support) - 38
+[33] Tiger58#SDC - Emerald 4 0 LP (Support) - 39
+[34] No Hwei#green - Gold 4 0 LP (Support) - 40
+[35] it is what it is#na3 - Gold 4 8 LP (Support) - 41
+[36] Elvynya#Lucy - Gold 3 47 LP (Support) - 41
+[37] gilly#1111 - Bronze 2 23 LP (Support) - 44
+[38] nan - nan (Support) - 45
+[39] PeachyVibes#80085 - Silver 4 73 LP (Support) - 45
+[40] Expertknifer#DADDY - Silver 3 80 LP (Support) - 45
+[41] Bosco23#0323 - Bronze 1 7 LP (Support) - 46
+[42] PeachyBoop#xdd - Bronze 4 13 LP (Support) - 49
 
 
 Total Entries: 42
-Average Points (Support): 28.928571428571427
+Average Points (Support): 29.928571428571427

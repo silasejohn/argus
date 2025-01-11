@@ -1,135 +1,139 @@
 === Player Draft Pool ===
-[1] Owen0214 - Grandmaster (Top) - 2.0
-[2] NicoTheBest8321 - Grandmaster (Mid) - 2.0
-[3] levizxy - Grandmaster (Support) - 2.0
-[4] rebornmountainx - Grandmaster (Jungle) - 3.0
-[5] adlking - Master (ADC) - 3.0
-[6] Ritty_lol - Master (Jungle) - 3.0
-[7] ririkaririka - Master (Mid) - 8.0
-[8] pandaemonium9213 - Master (Support) - 9.0
-[9] borria - Master (Support) - 9.0
-[10] me.pp - Diamond 2 (ADC) - 9.0
-[11] billy5832 - Diamond 2 (Jungle) - 10.0
-[12] thespecial1 - Diamond 3 (Jungle) - 11.0
-[13] Ticofighter47 - Master (Top) - 11.0
-[14] Pyrosi - Master (Mid) - 12.0
-[15] Ponygafo - Diamond 4 (Support) - 12.0
-[16] eeleeyas - Master (Jungle) - 13.0
+[1] ohiowen#skib | Owen#2879 - Grandmaster 618 LP (Top) - 2
+[2] Niccus#gopha - Grandmaster 549 LP (Mid|ADC) - 2
+[3] Prince#LuvGF | Levi#NA111 - Grandmaster 491 LP (Support) - 2
+[4] RebornMountainx#NA1 - Grandmaster 382 LP (Jungle) - 3
+[5] Alune#NA999 - Grandmaster 611 LP (ADC) - 3
+[6] Ritty#NA1 - Master 309 LP (Jungle) - 3
+[7] Ririka#6890 - Master 17 LP (Mid) - 8
+[8] His Brother#ETHAN - Master 180 LP (Support|Top) - 9
+[9] Borria#NA1 - Master 32 LP (Support) - 9
+[10] PingSpam#NA1 - Master 98 LP (ADC) - 9
+[11] BILLYBILLYBILLY#FATAF - Master 331 LP (Jungle) - 10
+[12] TouchVigor#NA1 - Master 22 LP (Jungle) - 11
+[13] ticofighter#NA1 | Tico#TAHM - Master 411 LP (Top) - 11
+[14] Lost in a river#NA1 | Pyrosis#NA1 - Master 148 LP (Mid) - 12
+[15] Pony#gafo - Diamond 4 44 LP (Support) - 12
+[16] Xiaolong#eelee - Master 102 LP (Jungle) - 13
 --- END DRAFT PERIOD 1 ---
-[17] Iateyosushi - Diamond 3 (Jungle) - 13.0
-[18] yeetyoteyate - Diamond 3 (Mid) - 13.0
-[19] chubbydumpling - Platinum 1-4 (Support) - 14.0
-[20] _hyperdragon - Diamond 3 (Jungle) - 14.0
-[21] ifearnobody - Diamond 3 (Jungle) - 14.0
-[22] bluewu. - Diamond 2 (Mid) - 14.0
-[23] hwasal06 - Diamond 1 (Mid) - 15.0
-[24] Xeuhktal - Diamond 4 (Top) - 16.0
-[25] GourmetCookies - Emerald 1 (Support) - 16.0
-[26] akudame_ikumika - Diamond 2 (Jungle) - 16.0
-[27] kessler_kora - Emerald 4 (Mid) - 16.0
-[28] gziemiyo - Diamond 1 (Mid) - 17.0
-[29] w0ld - Emerald 1 (Support) - 17.0
-[30] Mcfasho - Emerald 2 (Jungle) - 17.0
-[31] Kuroaf - Diamond 3 (Jungle) - 17.6
-[32] benjamminlol - Diamond 4 (Top) - 18.0
+[17] hackzorzzzz#NA1 - Master 32 LP (Jungle|Top) - 13
+[18] YeetYoteYate#NA1 - Master 31 LP (Mid) - 13
+[19] CARPETBOMBCORKI#NA1 - Diamond 4 0 LP (Support) - 14
+[20] Hyperdragon#Ellie - Master 1 LP (Jungle) - 14
+[21] I fear nobody#NA1 - Master 0 LP (Jungle) - 14
+[22] Blue#UU70 - Master 15 LP (Mid) - 14
+[23] SEXWOMY#NA1 - Emerald 3 13 LP (Mid) - 15
+[24] BoyHoleBuccaneer#Boom | GourmetCookies#NA1 - Master 0 LP (Support) - 16
+[25] Xeuhktal#NA1 - Master 10 LP (Top) - 16
+[26] Kessler#KORA - Master 47 LP (Mid) - 16
+[27] Akudame Ikumika#NA1 - Diamond 1 27 LP (Jungle) - 16
+[28] MCFasho#NA1 - Diamond 3 7 LP (Jungle) - 17
+[29] Death#March - Diamond 2 6 LP (Support) - 17
+[30] AcidStep#NA1 | StepAcid#NA1 - Diamond 2 63 LP (Mid|Jungle) - 17
+[31] Top Tower#NA1 - Diamond 3 14 LP (Top) - 18
+[32] Luyten#NA1 - Diamond 4 24 LP (ADC) - 18
 --- END DRAFT PERIOD 2 ---
-[33] kristangent. - Diamond 1 (Jungle) - 18.0
-[34] Luytenn - Emerald 3 (ADC) - 18.0
-[35] ookami_mio - Emerald 1 (Top) - 18.0
-[36] asadbanana - Diamond 3 (Top) - 18.0
-[37] yushuYoshi - Diamond 3 (Top) - 18.0
-[38] xbalmer - Emerald 1 (ADC) - 18.0
-[39] Epicphail2 - Gold 1-4 (Jungle) - 19.0
-[40] Drysicle - Emerald 2 (Top) - 20.0
-[41] Edmontosaurus - Emerald 2 (ADC) - 20.0
-[42] aguriv - Platinum 1-4 (Top) - 21.0
-[43] jinjguchiha - Emerald 2 (Jungle) - 21.0
-[44] xenux - Emerald 3 (Top) - 21.0
-[45] numberzer0 - Emerald 2 (Mid) - 21.0
-[46] Whynot99. - Emerald 3 (Jungle) - 22.0
-[47] vanos____ - Emerald 2 (ADC) - 22.0
-[48] themangomenace - Platinum 1-4 (Support) - 23.0
+[33] Kuroaf#NA1 - Diamond 4 22 LP (Jungle|Top) - 18
+[34] 6 foot 1  Jacked#Gojo - Diamond 2 9 LP (Jungle) - 18
+[35] Yoshi#Yushu - Diamond 2 0 LP (Top) - 18
+[36] Balmer#024 - Diamond 3 0 LP (ADC) - 18
+[37] Banana#54010 - Diamond 3 65 LP (Top) - 18
+[38] Gawr Goomba#shark - Diamond 2 0 LP (Top) - 18
+[39] OshaInspector#OSH - Emerald 4 90 LP (Jungle) - 19
+[40] Drysicle#NA1 - Diamond 4 27 LP (Top|Support) - 20
+[41] Edmontosaurus#KogOT - Emerald 2 36 LP (ADC) - 20
+[42] Lord Tubbyton#NA1 - Diamond 4 16 LP (Mid|Support) - 20
+[43] Xenux#Xenux - Diamond 2 31 LP (Top|Mid) - 21
+[44] Number Zer0#NA1 - Diamond 3 5 LP (Mid) - 21
+[45] L9 JinJG#JinJG - Diamond 3 24 LP (Jungle) - 21
+[46] 추방 Agu#BRNA - Diamond 4 1 LP (Top) - 21
+[47] bluelavalamp#NA1 - Emerald 2 9 LP (Top) - 21
+[48] weddchan#2404 - Emerald 3 65 LP (ADC|Mid) - 22
 --- END DRAFT PERIOD 3 ---
-[49] 0nlySinful - Emerald 4 (Mid) - 23.0
-[50] bouncy.knight. - Emerald 3 (Jungle) - 23.0
-[51] superchicken. - Emerald 4 (Jungle) - 24.0
-[52] .monsuno - Emerald 4 (Top) - 24.0
-[53] slaveknightkos - Emerald 3 (Mid) - 24.0
-[54] baomatrix - Emerald 3 (ADC) - 25.0
-[55] ausxh - Emerald 3 (ADC) - 25.0
-[56] aapathyy - Platinum 1-4 (Mid) - 25.0
-[57] amuchu - Platinum 1-4 (Support) - 25.0
-[58] sigilofaletheia - Platinum 1-4 (Support) - 25.8
-[59] MajinHollow - Platinum 1-4 (ADC) - 26.0
-[60] Jerboas - Platinum 1-4 (Support) - 26.0
-[61] blizzardbear101 - Emerald 4 (Mid) - 26.0
-[62] Promech - Platinum 1-4 (Top) - 26.0
-[63] seagullslayer7 - Emerald 4 (Jungle) - 26.0
-[64] _aly39_ - Platinum 1-4 (Mid) - 26.0
+[49] Chignild#NA1 | Akatsuki37046#NA1 - Diamond 3 43 LP (Jungle) - 22
+[50] ReapersBlade#13479 - Emerald 2 95 LP (Mid) - 22
+[51] ChewyLight28#NA1 - Emerald 2 0 LP (Support|ADC) - 23
+[52] Proud In Shroud#MAD - Emerald 4 24 LP (Mid) - 23
+[53] Bouncy#yup - Diamond 4 26 LP (Jungle|Support) - 23
+[54] Domina Luminis#NA1 | ShadowPoga#NA1 - Diamond 4 70 LP (ADC) - 23
+[55] SuperChicken#0123 - Diamond 4 5 LP (Jungle) - 24
+[56] saw#fast - Emerald 3 32 LP (Top) - 24
+[57] SlaveKnightKos#Kos - Emerald 3 42 LP (Mid) - 24
+[58] Sukiha#owo - Emerald 2 16 LP (ADC|Support) - 25
+[59] Ouroboros#Train | Ouroboros#Climb - Emerald 3 15 LP (Mid) - 25
+[60] Amuchu#NA1 - Emerald 2 4 LP (Support) - 25
+[61] BioMatrix#EmiQT - Diamond 4 1 LP (ADC) - 25
+[62] Dan Smith#KLLR7 - Emerald 3 48 LP (Support) - 26
+[63] Harry Patterson#Fin - Emerald 4 53 LP (Mid) - 26
+[64] MajinHollow#Vayne - Emerald 4 87 LP (ADC|Mid) - 26
 --- END DRAFT PERIOD 4 ---
-[65] BirdP3Rson - Platinum 1-4 (ADC) - 26.0
-[66] austinsilva - Emerald 4 (Support) - 27.0
-[67] thehamburglar8920 - Platinum 1-4 (Top) - 27.0
-[68] themilkalator - Platinum 1-4 (ADC) - 28.0
-[69] sithprincehammy - Platinum 1-4 (Jungle) - 28.0
-[70] Jbish96 - Platinum 1-4 (ADC) - 28.0
-[71] theotherbubble - Gold 1-4 (Mid) - 28.0
-[72] notalxd - Platinum 1-4 (Jungle) - 28.0
-[73] Monturkey - Platinum 1-4 (Jungle) - 28.0
-[74] crimson_0range - Platinum 1-4 (Top) - 29.0
-[75] mctatertot - Emerald 3 (Jungle) - 29.0
-[76] CCswift - Platinum 1-4 (Top) - 31.0
-[77] Barretel - Platinum 1-4 (Jungle) - 31.0
-[78] Bhrisy - Platinum 1-4 (Support) - 31.0
-[79] vegito3650 - Platinum 1-4 (Support) - 31.0
-[80] .jakefromstatefarmat3am - Emerald 3 (Top) - 32.0
+[65] Promech#NA1 - Emerald 4 62 LP (Top|Mid) - 26
+[66] seagullslayer7#NA1 - Emerald 4 36 LP (Jungle) - 26
+[67] SigilOfAletheia#NA1 - Emerald 2 21 LP (Support|Jungle) - 26
+[68] AlyXO#3976 - Emerald 3 0 LP (Mid|Support) - 26
+[69] BirdP3Rson#37114 - Emerald 2 0 LP (ADC) - 26
+[70] Bound#WVU1 - Emerald 4 30 LP (Support|Top) - 27
+[71] lsoDidact#NA1 - Platinum 1 6 LP (Top) - 27
+[72] FunnyyButton#NA123 - Platinum 4 38 LP (ADC|Mid) - 28
+[73] The Fool#URMAM - Platinum 2 37 LP (Jungle) - 28
+[74] GumbaStomp69#NA1 - Platinum 1 16 LP (ADC|Support) - 28
+[75] bubbles101012#NA1 - Platinum 3 53 LP (Mid) - 28
+[76] notal#8836 - Emerald 4 14 LP (Jungle) - 28
+[77] Monturkey#9268 - Emerald 3 75 LP (Jungle) - 28
+[78] GAMER DESTROYER#LLT | Gamer Destroyer#dump - Emerald 4 0 LP (Jungle|Support) - 29
+[79] BigBootyBarrels#Bomba - Platinum 3 59 LP (Top) - 29
+[80] Rose#630 - Gold 1 64 LP (Support) - 30
 --- END DRAFT PERIOD 5 ---
-[81] kybcat - Gold 1-4 (ADC) - 32.0
-[82] owlbirdy - Gold 1-4 (Mid) - 32.0
-[83] darkll - Gold 1-4 (Mid) - 33.0
-[84] theencry - Platinum 1-4 (Jungle) - 33.0
-[85] para.dox - Gold 1-4 (Jungle) - 33.0
-[86] Maxwelljrm - Gold 1-4 (Mid) - 33.0
-[87] bredonis - Gold 1-4 (Top) - 34.0
-[88] Flaccid4U - Gold 1-4 (Support) - 35.0
-[89] tibbywibby11 - Gold 1-4 (Jungle) - 35.0
-[90] geekee - Gold 1-4 (Support) - 35.0
-[91] jun_with_an_e - Gold 1-4 (Support) - 35.0
-[92] just.neo - Gold 1-4 (Mid) - 35.0
-[93] isolation19 - Gold 1-4 (ADC) - 35.0
-[94] chaos0002 - Gold 1-4 (Top) - 36.0
-[95] Colby115 - Gold 1-4 (Top) - 36.0
-[96] nerfseason - Platinum 1-4 (Top) - 36.0
+[81] ICarryOrILose#FREAK - Platinum 2 44 LP (Support|Jungle) - 31
+[82] Bhrisy#NA69 - Platinum 3 92 LP (Support|Top) - 31
+[83] CCswift#NA1 - Emerald 4 0 LP (Top) - 31
+[84] Barretel#Shaco - Platinum 4 33 LP (Jungle|Support) - 31
+[85] DESTROYXXXXL#NA1 - Emerald 4 72 LP (Top) - 32
+[86] kybcat#7796 - Platinum 4 1 LP (ADC|Top) - 32
+[87] OWLBIRD#NA1 - Platinum 4 69 LP (Mid|Top) - 32
+[88] Yujii#juju - Emerald 2 5 LP (Mid) - 33
+[89] Railleyacil#79810 | Darkll#1024 - Platinum 4 64 LP (Mid) - 33
+[90] Encry#ssj3 - Platinum 4 2 LP (Jungle|Top) - 33
+[91] dont ever stop#NA1 - Gold 3 82 LP (Jungle|Support) - 33
+[92] maxwell#CAN - Gold 1 27 LP (Mid) - 33
+[93] MiHughJanis#HUGH - Gold 2 92 LP (Top|Jungle) - 34
+[94] The Moon#urbro - Gold 3 0 LP (Jungle) - 35
+[95] Placid4U TTV#NA1 | TryingToVibe#NA1 - Platinum 4 17 LP (Support) - 35
+[96] jun#9845 - Emerald 4 18 LP (Support) - 35
 --- END DRAFT PERIOD 6 ---
-[97] atamaex - Gold 1-4 (Top) - 36.2
-[98] SwooshWRLD - Gold 1-4 (Mid) - 37.0
-[99] Scardeo - Silver 1-4 (Top) - 37.0
-[100] Dreadsu - Gold 1-4 (Top) - 37.0
-[101] iamrowx - Gold 1-4 (Support) - 38.0
-[102] Goku2057 - Gold 1-4 (Support) - 38.0
-[103] Tiger58 - Gold 1-4 (Support) - 39.0
-[104] dameionaruto - Gold 1-4 (Mid) - 39.0
-[105] drjacka1 - Silver 1-4 (Jungle) - 40.0
-[106] icebirb. - Silver 1-4 (Mid) - 40.0
-[107] shotsfortots - Silver 1-4 (ADC) - 41.0
-[108] Serided - Silver 1-4 (ADC) - 41.0
-[109] Elvynya - Silver 1-4 (ADC) - 41.0
-[110] feeshstix - Silver 1-4 (ADC) - 43.0
-[111] datgillyweed - Bronze 1-4 (Mid) - 44.0
-[112] kie2522 - Silver 1-4 (Support) - 45.0
+[97] Geekèé#0001 - Gold 2 76 LP (Support|ADC) - 35
+[98] neo#1447 - Emerald 4 0 LP (Mid) - 35
+[99] NemakuNa#NA1 - Platinum 4 94 LP (Support) - 35
+[100] Isolation#1909 - Platinum 4 70 LP (ADC) - 35
+[101] OkNowImTilted#Aim - Emerald 4 0 LP (Top|Mid) - 36
+[102] Harbinger#115 - Platinum 4 1 LP (Top) - 36
+[103] nerf season#lord - Emerald 4 20 LP (Top) - 36
+[104] Atamaex#NA1 - Gold 2 30 LP (Top|Support) - 36
+[105] SwooshWRLD#0334 - Platinum 4 0 LP (Mid|Support) - 37
+[106] callmeid#SNIP - Gold 3 59 LP (Top) - 37
+[107] scardeo#NA1 - Gold 2 77 LP (Top) - 37
+[108] Row#RowX - Gold 2 95 LP (Support) - 38
+[109] goku2057#NA1 - Gold 2 41 LP (Support) - 38
+[110] Tiger58#SDC - Emerald 4 0 LP (Support) - 39
+[111] DameioNaruto#GOKAI - Platinum 4 14 LP (Mid|Jungle) - 39
+[112] DrJackal#9921 - Gold 4 24 LP (Jungle) - 40
 --- END DRAFT PERIOD 7 ---
-[113] jesshipo - Bronze 1-4 (ADC) - 45.0
-[114] crazymike1 - Bronze 1-4 (ADC) - 45.0
-[115] brandis_ - Bronze 1-4 (Jungle) - 46.0
-[116] joshe21 - Bronze 1-4 (Support) - 46.0
-[117] angelofpaper2 - Silver 1-4 (Mid) - 47.0
-[118] crusader_iii - Bronze 1-4 (Jungle) - 48.0
-[119] Skymoare - Bronze 1-4 (Mid) - 48.0
-[120] peachyboop - Iron 1-4 (Support) - 49.0
-[121] Warmpikmin - Iron 1-4 (Top) - 49.0
-[122] Lanciferp - Iron 1-4 (Top) - 50.0
-[123] melonorb - Iron 1-4 (ADC) - 50.0
-[124] Xellius - Master (Mid) - nan
-[125] karismxtic - Diamond 4 (Mid) - nan
-[126] Lord Tubbyton - Emerald 2 (Mid) - nan
-[127] fluffy_s - Silver 1-4 (ADC) - nan
+[113] No Hwei#green - Gold 4 0 LP (Mid|Support) - 40
+[114] Elvynya#Lucy - Gold 3 47 LP (ADC|Support) - 41
+[115] it is what it is#na3 - Gold 4 8 LP (ADC|Support) - 41
+[116] Serided#RoHan - Silver 1 60 LP (ADC|Mid) - 41
+[117] Feeshstix#fish - nan (ADC) - 43
+[118] gilly#1111 - Bronze 2 23 LP (Mid|Support) - 44
+[119] PeachyVibes#80085 - Silver 4 73 LP (ADC|Support) - 45
+[120] Expertknifer#DADDY - Silver 3 80 LP (ADC|Support) - 45
+[121] nan - nan (Support) - 45
+[122] Brandis#0704 - Bronze 1 30 LP (Jungle) - 46
+[123] Bosco23#0323 - Bronze 1 7 LP (Support) - 46
+[124] AngelOfPaper2#NA1 | AngelOfPaper3#GGS - Silver 2 9 LP (Mid|Top) - 47
+[125] WanderingNomad#Sader - Bronze 4 11 LP (Jungle) - 48
+[126] Skymoare#poro - Bronze 4 47 LP (Mid) - 48
+[127] PeachyBoop#xdd - Bronze 4 13 LP (Support|Jungle) - 49
+[128] TahmTuah#6088 - Iron 1 48 LP (Top|Mid) - 49
+--- END DRAFT PERIOD 8 ---
+[129] LanciferP#NA1 - Bronze 1 0 LP (Top|Jungle) - 50
+[130] iggy#bored - nan (ADC) - 50

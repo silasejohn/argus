@@ -1,205 +1,203 @@
 === Draft In Progress ===
 
 === Round 1 ===
-Tie for Captain [VeryLastNerve]: [{'discord_username': 'NicoTheBest8321', 'primary_role': 'Mid'}, {'discord_username': 'levizxy', 'primary_role': 'Support'}]
-Captain [VeryLastNerve] picked [NicoTheBest8321] (Mid)!
-Captain [_lakuna] picked [levizxy] (Support)!
-Tie for Captain [.stran]: [{'discord_username': 'rebornmountainx', 'primary_role': 'Jungle'}, {'discord_username': 'Ritty_lol', 'primary_role': 'Jungle'}]
+Captain [VeryLastNerve] picked [levizxy] (Support)!
+Captain [_lakuna] picked [adlking] (ADC)!
+Tie for Captain [.stran]: [{'discord_username': 'rebornmountainx', 'Pos': 'Jungle'}, {'discord_username': 'Ritty_lol', 'Pos': 'Jungle'}]
 Captain [.stran] picked [rebornmountainx] (Jungle)!
-Tie for Captain [mrlizwiz]: [{'discord_username': 'adlking', 'primary_role': 'ADC'}, {'discord_username': 'Ritty_lol', 'primary_role': 'Jungle'}]
-Captain [mrlizwiz] picked [adlking] (ADC)!
-Captain [Lapislazuli3824] picked [Ritty_lol] (Jungle)!
+Captain [mrlizwiz] picked [Ritty_lol] (Jungle)!
+Tie for Captain [Lapislazuli3824]: [{'discord_username': 'borria', 'Pos': 'Support'}, {'discord_username': 'me.pp', 'Pos': 'ADC'}]
+Captain [Lapislazuli3824] picked [borria] (Support)!
 Captain [Earthen] picked [ririkaririka] (Mid)!
-Tie for Captain [.f_g.]: [{'discord_username': 'pandaemonium9213', 'primary_role': 'Support'}, {'discord_username': 'borria', 'primary_role': 'Support'}, {'discord_username': 'me.pp', 'primary_role': 'ADC'}]
-Captain [.f_g.] picked [pandaemonium9213] (Support)!
-Tie for Captain [recoveringschizo]: [{'discord_username': 'borria', 'primary_role': 'Support'}, {'discord_username': 'me.pp', 'primary_role': 'ADC'}]
-Captain [recoveringschizo] picked [borria] (Support)!
-Captain [ffsfruit] picked [me.pp] (ADC)!
-Captain [different_lol] picked [billy5832] (Jungle)!
-Tie for Captain [Stl_Slayer_24]: [{'discord_username': 'thespecial1', 'primary_role': 'Jungle'}, {'discord_username': 'Ticofighter47', 'primary_role': 'Top'}]
-Captain [Stl_Slayer_24] picked [thespecial1] (Jungle)!
-Captain [DavidEdge] picked [Ticofighter47] (Top)!
+Captain [.f_g.] picked [me.pp] (ADC)!
+Captain [recoveringschizo] picked [billy5832] (Jungle)!
+Tie for Captain [ffsfruit]: [{'discord_username': 'thespecial1', 'Pos': 'Jungle'}, {'discord_username': 'Ticofighter47', 'Pos': 'Top'}]
+Captain [ffsfruit] picked [thespecial1] (Jungle)!
+Captain [different_lol] picked [Ticofighter47] (Top)!
+Tie for Captain [Stl_Slayer_24]: [{'discord_username': 'Pyrosi', 'Pos': 'Mid'}, {'discord_username': 'Ponygafo', 'Pos': 'Support'}]
+Captain [Stl_Slayer_24] picked [Pyrosi] (Mid)!
+Tie for Captain [DavidEdge]: [{'discord_username': 'eeleeyas', 'Pos': 'Jungle'}, {'discord_username': 'yeetyoteyate', 'Pos': 'Mid'}]
+Captain [DavidEdge] picked [eeleeyas] (Jungle)!
 Captain [catinatin] picked [Ponygafo] (Support)!
-Captain [axekiller1107] picked [Pyrosi] (Mid)!
-Tie for Captain [aratthe]: [{'discord_username': 'eeleeyas', 'primary_role': 'Jungle'}, {'discord_username': 'Iateyosushi', 'primary_role': 'Jungle'}, {'discord_username': 'yeetyoteyate', 'primary_role': 'Mid'}]
-Captain [aratthe] picked [eeleeyas] (Jungle)!
+Captain [axekiller1107] picked [yeetyoteyate] (Mid)!
+Tie for Captain [aratthe]: [{'discord_username': '_hyperdragon', 'Pos': 'Jungle'}, {'discord_username': 'ifearnobody', 'Pos': 'Jungle'}, {'discord_username': 'bluewu.', 'Pos': 'Mid'}]
+Captain [aratthe] picked [_hyperdragon] (Jungle)!
 === Round 2 ===
-Captain [VeryLastNerve] picked [Iateyosushi] (Jungle)!
-Captain [_lakuna] picked [yeetyoteyate] (Mid)!
-Tie for Captain [.stran]: [{'discord_username': 'chubbydumpling', 'primary_role': 'Support'}, {'discord_username': 'bluewu.', 'primary_role': 'Mid'}]
-Captain [.stran] picked [chubbydumpling] (Support)!
-Tie for Captain [mrlizwiz]: [{'discord_username': '_hyperdragon', 'primary_role': 'Jungle'}, {'discord_username': 'ifearnobody', 'primary_role': 'Jungle'}, {'discord_username': 'bluewu.', 'primary_role': 'Mid'}]
-Captain [mrlizwiz] picked [_hyperdragon] (Jungle)!
-Tie for Captain [Lapislazuli3824]: [{'discord_username': 'Xeuhktal', 'primary_role': 'Top'}, {'discord_username': 'GourmetCookies', 'primary_role': 'Support'}]
+Tie for Captain [VeryLastNerve]: [{'discord_username': 'ifearnobody', 'Pos': 'Jungle'}, {'discord_username': 'bluewu.', 'Pos': 'Mid'}]
+Captain [VeryLastNerve] picked [ifearnobody] (Jungle)!
+Tie for Captain [_lakuna]: [{'discord_username': 'chubbydumpling', 'Pos': 'Support'}, {'discord_username': 'bluewu.', 'Pos': 'Mid'}]
+Captain [_lakuna] picked [chubbydumpling] (Support)!
+Captain [.stran] picked [bluewu.] (Mid)!
+Captain [mrlizwiz] picked [hwasal06] (Mid)!
+Tie for Captain [Lapislazuli3824]: [{'discord_username': 'Xeuhktal', 'Pos': 'Top'}, {'discord_username': 'akudame_ikumika', 'Pos': 'Jungle'}]
 Captain [Lapislazuli3824] picked [Xeuhktal] (Top)!
-Captain [Earthen] picked [ifearnobody] (Jungle)!
-Captain [.f_g.] picked [bluewu.] (Mid)!
-Captain [recoveringschizo] picked [hwasal06] (Mid)!
-Tie for Captain [jayrich1101]: [{'discord_username': 'GourmetCookies', 'primary_role': 'Support'}, {'discord_username': 'akudame_ikumika', 'primary_role': 'Jungle'}, {'discord_username': 'kessler_kora', 'primary_role': 'Mid'}]
-Captain [jayrich1101] picked [GourmetCookies] (Support)!
-Captain [ffsfruit] picked [akudame_ikumika] (Jungle)!
-Captain [different_lol] picked [kessler_kora] (Mid)!
-Tie for Captain [Stl_Slayer_24]: [{'discord_username': 'gziemiyo', 'primary_role': 'Mid'}, {'discord_username': 'w0ld', 'primary_role': 'Support'}]
-Captain [Stl_Slayer_24] picked [gziemiyo] (Mid)!
-Captain [DavidEdge] picked [Mcfasho] (Jungle)!
-Captain [catinatin] picked [Kuroaf] (Jungle)!
-Captain [axekiller1107] picked [w0ld] (Support)!
-Tie for Captain [aratthe]: [{'discord_username': 'benjamminlol', 'primary_role': 'Top'}, {'discord_username': 'Luytenn', 'primary_role': 'ADC'}, {'discord_username': 'ookami_mio', 'primary_role': 'Top'}, {'discord_username': 'asadbanana', 'primary_role': 'Top'}, {'discord_username': 'yushuYoshi', 'primary_role': 'Top'}, {'discord_username': 'xbalmer', 'primary_role': 'ADC'}]
-Captain [aratthe] picked [benjamminlol] (Top)!
+Tie for Captain [Earthen]: [{'discord_username': 'GourmetCookies', 'Pos': 'Support'}, {'discord_username': 'akudame_ikumika', 'Pos': 'Jungle'}]
+Captain [Earthen] picked [GourmetCookies] (Support)!
+Tie for Captain [.f_g.]: [{'discord_username': 'kessler_kora', 'Pos': 'Mid'}, {'discord_username': 'akudame_ikumika', 'Pos': 'Jungle'}]
+Captain [.f_g.] picked [kessler_kora] (Mid)!
+Captain [recoveringschizo] picked [w0ld] (Support)!
+Captain [jayrich1101] picked [akudame_ikumika] (Jungle)!
+Tie for Captain [ffsfruit]: [{'discord_username': 'benjamminlol', 'Pos': 'Top'}, {'discord_username': 'Luytenn', 'Pos': 'ADC'}, {'discord_username': 'yushuYoshi', 'Pos': 'Top'}, {'discord_username': 'xbalmer', 'Pos': 'ADC'}, {'discord_username': 'asadbanana', 'Pos': 'Top'}, {'discord_username': 'ookami_mio', 'Pos': 'Top'}]
+Captain [ffsfruit] picked [benjamminlol] (Top)!
+Captain [different_lol] picked [Mcfasho] (Jungle)!
+Tie for Captain [Stl_Slayer_24]: [{'discord_username': 'kristangent.', 'Pos': 'Jungle'}, {'discord_username': 'yushuYoshi', 'Pos': 'Top'}, {'discord_username': 'asadbanana', 'Pos': 'Top'}, {'discord_username': 'ookami_mio', 'Pos': 'Top'}]
+Captain [Stl_Slayer_24] picked [kristangent.] (Jungle)!
+Tie for Captain [DavidEdge]: [{'discord_username': 'Luytenn', 'Pos': 'ADC'}, {'discord_username': 'yushuYoshi', 'Pos': 'Top'}, {'discord_username': 'xbalmer', 'Pos': 'ADC'}, {'discord_username': 'asadbanana', 'Pos': 'Top'}, {'discord_username': 'ookami_mio', 'Pos': 'Top'}]
+Captain [DavidEdge] picked [Luytenn] (ADC)!
+Tie for Captain [catinatin]: [{'discord_username': 'yushuYoshi', 'Pos': 'Top'}, {'discord_username': 'xbalmer', 'Pos': 'ADC'}, {'discord_username': 'asadbanana', 'Pos': 'Top'}, {'discord_username': 'ookami_mio', 'Pos': 'Top'}]
+Captain [catinatin] picked [yushuYoshi] (Top)!
+Tie for Captain [axekiller1107]: [{'discord_username': 'xbalmer', 'Pos': 'ADC'}, {'discord_username': 'asadbanana', 'Pos': 'Top'}, {'discord_username': 'ookami_mio', 'Pos': 'Top'}]
+Captain [axekiller1107] picked [xbalmer] (ADC)!
+Tie for Captain [aratthe]: [{'discord_username': 'asadbanana', 'Pos': 'Top'}, {'discord_username': 'ookami_mio', 'Pos': 'Top'}]
+Captain [aratthe] picked [asadbanana] (Top)!
 === Round 3 ===
-Captain [VeryLastNerve] total points: 48.0
-Tie for Captain [VeryLastNerve]: [{'discord_username': '.jakefromstatefarmat3am', 'primary_role': 'Top'}, {'discord_username': 'kybcat', 'primary_role': 'ADC'}, {'discord_username': 'owlbirdy', 'primary_role': 'Mid'}]
-Captain [VeryLastNerve] picked [.jakefromstatefarmat3am] (Top)!
-Captain [_lakuna] total points: 36.0
-Captain [_lakuna] picked [datgillyweed] (Mid)!
-Captain [.stran] total points: 49.0
-Tie for Captain [.stran]: [{'discord_username': 'CCswift', 'primary_role': 'Top'}, {'discord_username': 'Barretel', 'primary_role': 'Jungle'}, {'discord_username': 'Bhrisy', 'primary_role': 'Support'}, {'discord_username': 'vegito3650', 'primary_role': 'Support'}]
-Captain [.stran] picked [CCswift] (Top)!
-Captain [mrlizwiz] total points: 41.0
-Tie for Captain [mrlizwiz]: [{'discord_username': 'Tiger58', 'primary_role': 'Support'}, {'discord_username': 'dameionaruto', 'primary_role': 'Mid'}]
-Captain [mrlizwiz] picked [Tiger58] (Support)!
-Captain [Lapislazuli3824] total points: 42.0
-Tie for Captain [Lapislazuli3824]: [{'discord_username': 'iamrowx', 'primary_role': 'Support'}, {'discord_username': 'Goku2057', 'primary_role': 'Support'}]
-Captain [Lapislazuli3824] picked [iamrowx] (Support)!
-Captain [Earthen] total points: 53.0
-Tie for Captain [Earthen]: [{'discord_username': 'austinsilva', 'primary_role': 'Support'}, {'discord_username': 'thehamburglar8920', 'primary_role': 'Top'}]
-Captain [Earthen] picked [austinsilva] (Support)!
-Captain [.f_g.] total points: 41.0
-Captain [.f_g.] picked [dameionaruto] (Mid)!
-Captain [recoveringschizo] total points: 50.0
-Tie for Captain [recoveringschizo]: [{'discord_username': 'Barretel', 'primary_role': 'Jungle'}, {'discord_username': 'Bhrisy', 'primary_role': 'Support'}, {'discord_username': 'vegito3650', 'primary_role': 'Support'}]
-Captain [recoveringschizo] picked [Barretel] (Jungle)!
-Captain [jayrich1101] total points: 32.0
-Tie for Captain [jayrich1101]: [{'discord_username': 'crusader_iii', 'primary_role': 'Jungle'}, {'discord_username': 'Skymoare', 'primary_role': 'Mid'}]
+Captain [VeryLastNerve] total points: 49
+Tie for Captain [VeryLastNerve]: [{'discord_username': 'vegito3650', 'Pos': 'Support|Jungle'}, {'discord_username': 'Bhrisy', 'Pos': 'Support|Top'}, {'discord_username': 'CCswift', 'Pos': 'Top'}, {'discord_username': 'Barretel', 'Pos': 'Jungle|Support'}]
+Captain [VeryLastNerve] picked [vegito3650] (Support|Jungle)!
+Captain [_lakuna] total points: 38
+Captain [_lakuna] picked [feeshstix] (ADC)!
+Captain [.stran] total points: 49
+Tie for Captain [.stran]: [{'discord_username': 'Bhrisy', 'Pos': 'Support|Top'}, {'discord_username': 'CCswift', 'Pos': 'Top'}, {'discord_username': 'Barretel', 'Pos': 'Jungle|Support'}]
+Captain [.stran] picked [Bhrisy] (Support|Top)!
+Captain [mrlizwiz] total points: 42
+Tie for Captain [mrlizwiz]: [{'discord_username': 'iamrowx', 'Pos': 'Support'}, {'discord_username': 'Goku2057', 'Pos': 'Support'}]
+Captain [mrlizwiz] picked [iamrowx] (Support)!
+Captain [Lapislazuli3824] total points: 48
+Tie for Captain [Lapislazuli3824]: [{'discord_username': '.jakefromstatefarmat3am', 'Pos': 'Top'}, {'discord_username': 'kybcat', 'Pos': 'ADC|Top'}, {'discord_username': 'owlbirdy', 'Pos': 'Mid|Top'}]
+Captain [Lapislazuli3824] picked [.jakefromstatefarmat3am] (Top)!
+Captain [Earthen] total points: 55
+Tie for Captain [Earthen]: [{'discord_username': 'ausxh', 'Pos': 'ADC|Support'}, {'discord_username': 'aapathyy', 'Pos': 'Mid'}, {'discord_username': 'amuchu', 'Pos': 'Support'}, {'discord_username': 'baomatrix', 'Pos': 'ADC'}]
+Captain [Earthen] picked [ausxh] (ADC|Support)!
+Captain [.f_g.] total points: 43
+Tie for Captain [.f_g.]: [{'discord_username': 'SwooshWRLD', 'Pos': 'Mid|Support'}, {'discord_username': 'Dreadsu', 'Pos': 'Top'}, {'discord_username': 'Scardeo', 'Pos': 'Top'}]
+Captain [.f_g.] picked [SwooshWRLD] (Mid|Support)!
+Captain [recoveringschizo] total points: 53
+Tie for Captain [recoveringschizo]: [{'discord_username': 'austinsilva', 'Pos': 'Support|Top'}, {'discord_username': 'thehamburglar8920', 'Pos': 'Top'}]
+Captain [recoveringschizo] picked [austinsilva] (Support|Top)!
+Captain [jayrich1101] total points: 32
+Tie for Captain [jayrich1101]: [{'discord_username': 'crusader_iii', 'Pos': 'Jungle'}, {'discord_username': 'Skymoare', 'Pos': 'Mid'}]
 Captain [jayrich1101] picked [crusader_iii] (Jungle)!
-Captain [ffsfruit] total points: 40.0
-Tie for Captain [ffsfruit]: [{'discord_username': 'drjacka1', 'primary_role': 'Jungle'}, {'discord_username': 'icebirb.', 'primary_role': 'Mid'}]
-Captain [ffsfruit] picked [drjacka1] (Jungle)!
-Captain [different_lol] total points: 32.0
-Captain [different_lol] picked [Skymoare] (Mid)!
-Captain [Stl_Slayer_24] total points: 38.0
-Captain [Stl_Slayer_24] picked [feeshstix] (ADC)!
-Captain [DavidEdge] total points: 43.0
-Tie for Captain [DavidEdge]: [{'discord_username': 'SwooshWRLD', 'primary_role': 'Mid'}, {'discord_username': 'Scardeo', 'primary_role': 'Top'}, {'discord_username': 'Dreadsu', 'primary_role': 'Top'}]
-Captain [DavidEdge] picked [SwooshWRLD] (Mid)!
-Captain [catinatin] total points: 46.6
-Captain [catinatin] picked [bredonis] (Top)!
-Captain [axekiller1107] total points: 50.0
-Tie for Captain [axekiller1107]: [{'discord_username': 'Bhrisy', 'primary_role': 'Support'}, {'discord_username': 'vegito3650', 'primary_role': 'Support'}]
-Captain [axekiller1107] picked [Bhrisy] (Support)!
-Captain [aratthe] total points: 63.0
-Tie for Captain [aratthe]: [{'discord_username': 'kristangent.', 'primary_role': 'Jungle'}, {'discord_username': 'Luytenn', 'primary_role': 'ADC'}, {'discord_username': 'ookami_mio', 'primary_role': 'Top'}, {'discord_username': 'asadbanana', 'primary_role': 'Top'}, {'discord_username': 'yushuYoshi', 'primary_role': 'Top'}, {'discord_username': 'xbalmer', 'primary_role': 'ADC'}]
-Captain [aratthe] picked [kristangent.] (Jungle)!
+Captain [ffsfruit] total points: 44
+Tie for Captain [ffsfruit]: [{'discord_username': 'chaos0002', 'Pos': 'Top|Mid'}, {'discord_username': 'Colby115', 'Pos': 'Top'}, {'discord_username': 'nerfseason', 'Pos': 'Top'}, {'discord_username': 'atamaex', 'Pos': 'Top|Support'}]
+Captain [ffsfruit] picked [chaos0002] (Top|Mid)!
+Captain [different_lol] total points: 34
+Tie for Captain [different_lol]: [{'discord_username': 'brandis_', 'Pos': 'Jungle'}, {'discord_username': 'joshe21', 'Pos': 'Support'}]
+Captain [different_lol] picked [brandis_] (Jungle)!
+Captain [Stl_Slayer_24] total points: 40
+Tie for Captain [Stl_Slayer_24]: [{'discord_username': 'drjacka1', 'Pos': 'Jungle'}, {'discord_username': 'icebirb.', 'Pos': 'Mid|Support'}]
+Captain [Stl_Slayer_24] picked [drjacka1] (Jungle)!
+Captain [DavidEdge] total points: 46
+Captain [DavidEdge] picked [bredonis] (Top|Jungle)!
+Captain [catinatin] total points: 47
+Tie for Captain [catinatin]: [{'discord_username': 'Yujii', 'Pos': 'Mid'}, {'discord_username': 'darkll', 'Pos': 'Mid'}, {'discord_username': 'theencry', 'Pos': 'Jungle|Top'}, {'discord_username': 'para.dox', 'Pos': 'Jungle|Support'}, {'discord_username': 'Maxwelljrm', 'Pos': 'Mid'}]
+Captain [catinatin] picked [Yujii] (Mid)!
+Captain [axekiller1107] total points: 52
+Tie for Captain [axekiller1107]: [{'discord_username': 'themilkalator', 'Pos': 'ADC|Mid'}, {'discord_username': 'sithprincehammy', 'Pos': 'Jungle'}, {'discord_username': 'Jbish96', 'Pos': 'ADC|Support'}, {'discord_username': 'theotherbubble', 'Pos': 'Mid'}, {'discord_username': 'notalxd', 'Pos': 'Jungle'}, {'discord_username': 'Monturkey', 'Pos': 'Jungle'}]
+Captain [axekiller1107] picked [themilkalator] (ADC|Mid)!
+Captain [aratthe] total points: 64
+Captain [aratthe] picked [gziemiyo] (Mid|Jungle)!
 === Round 4 ===
-Tie for Captain [VeryLastNerve]: [{'discord_username': 'Luytenn', 'primary_role': 'ADC'}, {'discord_username': 'xbalmer', 'primary_role': 'ADC'}]
-Captain [VeryLastNerve] picked [Luytenn] (ADC)!
-Tie for Captain [_lakuna]: [{'discord_username': 'ookami_mio', 'primary_role': 'Top'}, {'discord_username': 'asadbanana', 'primary_role': 'Top'}, {'discord_username': 'yushuYoshi', 'primary_role': 'Top'}, {'discord_username': 'xbalmer', 'primary_role': 'ADC'}]
-Captain [_lakuna] picked [ookami_mio] (Top)!
-Captain [.stran] picked [numberzer0] (Mid)!
-Captain [mrlizwiz] picked [0nlySinful] (Mid)!
-Captain [Lapislazuli3824] picked [xbalmer] (ADC)!
-Captain [Earthen] picked [Edmontosaurus] (ADC)!
-Captain [.f_g.] picked [Epicphail2] (Jungle)!
-Tie for Captain [recoveringschizo]: [{'discord_username': 'asadbanana', 'primary_role': 'Top'}, {'discord_username': 'yushuYoshi', 'primary_role': 'Top'}]
-Captain [recoveringschizo] picked [asadbanana] (Top)!
-Captain [jayrich1101] picked [slaveknightkos] (Mid)!
-Captain [ffsfruit] picked [yushuYoshi] (Top)!
-Captain [different_lol] picked [Drysicle] (Top)!
-Tie for Captain [Stl_Slayer_24]: [{'discord_username': 'aguriv', 'primary_role': 'Top'}, {'discord_username': 'xenux', 'primary_role': 'Top'}]
-Captain [Stl_Slayer_24] picked [aguriv] (Top)!
-Captain [DavidEdge] picked [vanos____] (ADC)!
-Tie for Captain [catinatin]: [{'discord_username': 'baomatrix', 'primary_role': 'ADC'}, {'discord_username': 'ausxh', 'primary_role': 'ADC'}]
-Captain [catinatin] picked [baomatrix] (ADC)!
-Captain [axekiller1107] picked [xenux] (Top)!
-Tie for Captain [aratthe]: [{'discord_username': 'ausxh', 'primary_role': 'ADC'}, {'discord_username': 'aapathyy', 'primary_role': 'Mid'}]
-Captain [aratthe] picked [ausxh] (ADC)!
-=== Round 5 ===
-Captain [VeryLastNerve] picked [themangomenace] (Support)!
-Tie for Captain [_lakuna]: [{'discord_username': 'MajinHollow', 'primary_role': 'ADC'}, {'discord_username': 'BirdP3Rson', 'primary_role': 'ADC'}]
-Captain [_lakuna] picked [MajinHollow] (ADC)!
-Captain [.stran] picked [jinjguchiha] (Jungle)!
-Captain [mrlizwiz] picked [Whynot99.] (Jungle)!
-Captain [Lapislazuli3824] picked [bouncy.knight.] (Jungle)!
-Tie for Captain [Earthen]: [{'discord_username': 'superchicken.', 'primary_role': 'Jungle'}, {'discord_username': '.monsuno', 'primary_role': 'Top'}]
-Captain [Earthen] picked [superchicken.] (Jungle)!
-Captain [.f_g.] picked [BirdP3Rson] (ADC)!
-Tie for Captain [recoveringschizo]: [{'discord_username': 'themilkalator', 'primary_role': 'ADC'}, {'discord_username': 'Jbish96', 'primary_role': 'ADC'}]
-Captain [recoveringschizo] picked [themilkalator] (ADC)!
-Captain [jayrich1101] picked [.monsuno] (Top)!
-Captain [ffsfruit] picked [amuchu] (Support)!
-Captain [different_lol] picked [sigilofaletheia] (Support)!
-Captain [Stl_Slayer_24] picked [Jerboas] (Support)!
+Captain [VeryLastNerve] picked [ookami_mio] (Top)!
+Tie for Captain [_lakuna]: [{'discord_username': 'numberzer0', 'Pos': 'Mid'}, {'discord_username': 'aguriv', 'Pos': 'Top'}, {'discord_username': 'bluelavalamp', 'Pos': 'Top'}]
+Captain [_lakuna] picked [numberzer0] (Mid)!
+Tie for Captain [.stran]: [{'discord_username': 'aguriv', 'Pos': 'Top'}, {'discord_username': 'bluelavalamp', 'Pos': 'Top'}]
+Captain [.stran] picked [aguriv] (Top)!
+Captain [mrlizwiz] picked [Edmontosaurus] (ADC)!
+Captain [Lapislazuli3824] picked [Epicphail2] (Jungle)!
+Tie for Captain [Earthen]: [{'discord_username': 'jinjguchiha', 'Pos': 'Jungle'}, {'discord_username': 'bluelavalamp', 'Pos': 'Top'}]
+Captain [Earthen] picked [jinjguchiha] (Jungle)!
+Captain [.f_g.] picked [bluelavalamp] (Top)!
+Captain [recoveringschizo] picked [reapersblade] (Mid)!
+Captain [jayrich1101] picked [0nlySinful] (Mid)!
+Captain [ffsfruit] picked [shadowpoga] (ADC)!
+Captain [different_lol] picked [slaveknightkos] (Mid)!
+Captain [Stl_Slayer_24] picked [.monsuno] (Top)!
 Captain [DavidEdge] picked [aapathyy] (Mid)!
-Tie for Captain [catinatin]: [{'discord_username': 'blizzardbear101', 'primary_role': 'Mid'}, {'discord_username': 'Promech', 'primary_role': 'Top'}, {'discord_username': 'seagullslayer7', 'primary_role': 'Jungle'}, {'discord_username': '_aly39_', 'primary_role': 'Mid'}]
-Captain [catinatin] picked [blizzardbear101] (Mid)!
-Captain [axekiller1107] picked [Jbish96] (ADC)!
-Captain [aratthe] picked [_aly39_] (Mid)!
+Captain [catinatin] picked [Whynot99.] (Jungle)!
+Captain [axekiller1107] picked [superchicken.] (Jungle)!
+Captain [aratthe] picked [baomatrix] (ADC)!
+=== Round 5 ===
+Tie for Captain [VeryLastNerve]: [{'discord_username': 'blizzardbear101', 'Pos': 'Mid'}, {'discord_username': 'BirdP3Rson', 'Pos': 'ADC'}]
+Captain [VeryLastNerve] picked [blizzardbear101] (Mid)!
+Captain [_lakuna] picked [thehamburglar8920] (Top)!
+Captain [.stran] picked [amuchu] (Support)!
+Captain [mrlizwiz] picked [NicoTheBest8321] (Mid|ADC)!
+Captain [Lapislazuli3824] picked [BirdP3Rson] (ADC)!
+Captain [Earthen] picked [crimson_0range] (Top)!
+Tie for Captain [.f_g.]: [{'discord_username': 'Jerboas', 'Pos': 'Support'}, {'discord_username': 'seagullslayer7', 'Pos': 'Jungle'}]
+Captain [.f_g.] picked [Jerboas] (Support)!
+Captain [recoveringschizo] picked [CCswift] (Top)!
+Captain [jayrich1101] picked [roseremains] (Support)!
+Tie for Captain [ffsfruit]: [{'discord_username': 'Flaccid4U', 'Pos': 'Support'}, {'discord_username': 'jun_with_an_e', 'Pos': 'Support'}, {'discord_username': 'NemakuNa', 'Pos': 'Support'}]
+Captain [ffsfruit] picked [Flaccid4U] (Support)!
+Tie for Captain [different_lol]: [{'discord_username': 'jun_with_an_e', 'Pos': 'Support'}, {'discord_username': 'NemakuNa', 'Pos': 'Support'}]
+Captain [different_lol] picked [jun_with_an_e] (Support)!
+Captain [Stl_Slayer_24] picked [NemakuNa] (Support)!
+Tie for Captain [DavidEdge]: [{'discord_username': 'Colby115', 'Pos': 'Top'}, {'discord_username': 'nerfseason', 'Pos': 'Top'}]
+Captain [DavidEdge] picked [Colby115] (Top)!
+Captain [catinatin] picked [isolation19] (ADC)!
+Captain [axekiller1107] picked [nerfseason] (Top)!
+Captain [aratthe] picked [theotherbubble] (Mid)!
 === Round 6 ===
-Tie for Captain [VeryLastNerve]: [{'discord_username': 'Promech', 'primary_role': 'Top'}, {'discord_username': 'seagullslayer7', 'primary_role': 'Jungle'}]
-Captain [VeryLastNerve] picked [Promech] (Top)!
-Captain [_lakuna] picked [seagullslayer7] (Jungle)!
-Captain [.stran] picked [thehamburglar8920] (Top)!
-Tie for Captain [mrlizwiz]: [{'discord_username': 'sithprincehammy', 'primary_role': 'Jungle'}, {'discord_username': 'theotherbubble', 'primary_role': 'Mid'}, {'discord_username': 'notalxd', 'primary_role': 'Jungle'}, {'discord_username': 'Monturkey', 'primary_role': 'Jungle'}]
-Captain [mrlizwiz] picked [sithprincehammy] (Jungle)!
-Tie for Captain [Lapislazuli3824]: [{'discord_username': 'theotherbubble', 'primary_role': 'Mid'}, {'discord_username': 'notalxd', 'primary_role': 'Jungle'}, {'discord_username': 'Monturkey', 'primary_role': 'Jungle'}]
-Captain [Lapislazuli3824] picked [theotherbubble] (Mid)!
-Tie for Captain [Earthen]: [{'discord_username': 'notalxd', 'primary_role': 'Jungle'}, {'discord_username': 'Monturkey', 'primary_role': 'Jungle'}]
-Captain [Earthen] picked [notalxd] (Jungle)!
-Captain [.f_g.] picked [Monturkey] (Jungle)!
-Tie for Captain [recoveringschizo]: [{'discord_username': 'crimson_0range', 'primary_role': 'Top'}, {'discord_username': 'mctatertot', 'primary_role': 'Jungle'}]
-Captain [recoveringschizo] picked [crimson_0range] (Top)!
-Captain [jayrich1101] picked [mctatertot] (Jungle)!
-Captain [ffsfruit] picked [vegito3650] (Support)!
-Tie for Captain [different_lol]: [{'discord_username': 'kybcat', 'primary_role': 'ADC'}, {'discord_username': 'owlbirdy', 'primary_role': 'Mid'}]
-Captain [different_lol] picked [kybcat] (ADC)!
-Captain [Stl_Slayer_24] picked [owlbirdy] (Mid)!
-Tie for Captain [DavidEdge]: [{'discord_username': 'darkll', 'primary_role': 'Mid'}, {'discord_username': 'theencry', 'primary_role': 'Jungle'}, {'discord_username': 'para.dox', 'primary_role': 'Jungle'}, {'discord_username': 'Maxwelljrm', 'primary_role': 'Mid'}]
-Captain [DavidEdge] picked [darkll] (Mid)!
-Tie for Captain [catinatin]: [{'discord_username': 'theencry', 'primary_role': 'Jungle'}, {'discord_username': 'para.dox', 'primary_role': 'Jungle'}, {'discord_username': 'Maxwelljrm', 'primary_role': 'Mid'}]
-Captain [catinatin] picked [theencry] (Jungle)!
-Tie for Captain [axekiller1107]: [{'discord_username': 'para.dox', 'primary_role': 'Jungle'}, {'discord_username': 'Maxwelljrm', 'primary_role': 'Mid'}]
-Captain [axekiller1107] picked [para.dox] (Jungle)!
-Captain [aratthe] picked [Maxwelljrm] (Mid)!
+Captain [VeryLastNerve] picked [melonorb] (ADC)!
+Captain [_lakuna] picked [pandaemonium9213] (Support|Top)!
+Captain [.stran] picked [Iateyosushi] (Jungle|Top)!
+Captain [mrlizwiz] picked [Kuroaf] (Jungle|Top)!
+Tie for Captain [Lapislazuli3824]: [{'discord_username': 'Drysicle', 'Pos': 'Top|Support'}, {'discord_username': 'Lord Tubbyton', 'Pos': 'Mid|Support'}]
+Captain [Lapislazuli3824] picked [Drysicle] (Top|Support)!
+Captain [Earthen] cannot pick. No eligible players left!
+Captain [.f_g.] picked [seagullslayer7] (Jungle)!
+Captain [recoveringschizo] cannot pick. No eligible players left!
+Captain [jayrich1101] picked [Lord Tubbyton] (Mid|Support)!
+Captain [ffsfruit] picked [xenux] (Top|Mid)!
+Captain [different_lol] picked [vanos____] (ADC|Mid)!
+Tie for Captain [Stl_Slayer_24]: [{'discord_username': 'themangomenace', 'Pos': 'Support|ADC'}, {'discord_username': 'bouncy.knight.', 'Pos': 'Jungle|Support'}]
+Captain [Stl_Slayer_24] picked [themangomenace] (Support|ADC)!
+Captain [DavidEdge] picked [bouncy.knight.] (Jungle|Support)!
+Tie for Captain [catinatin]: [{'discord_username': 'MajinHollow', 'Pos': 'ADC|Mid'}, {'discord_username': 'Promech', 'Pos': 'Top|Mid'}, {'discord_username': 'sigilofaletheia', 'Pos': 'Support|Jungle'}, {'discord_username': '_aly39_', 'Pos': 'Mid|Support'}]
+Captain [catinatin] picked [MajinHollow] (ADC|Mid)!
+Captain [axekiller1107] picked [Goku2057] (Support)!
+Tie for Captain [aratthe]: [{'discord_username': 'Promech', 'Pos': 'Top|Mid'}, {'discord_username': 'sigilofaletheia', 'Pos': 'Support|Jungle'}, {'discord_username': '_aly39_', 'Pos': 'Mid|Support'}]
+Captain [aratthe] picked [Promech] (Top|Mid)!
 === Round 7 ===
-Captain [VeryLastNerve] total points: 147.0
-Tie for Captain [VeryLastNerve]: [{'discord_username': 'Flaccid4U', 'primary_role': 'Support'}, {'discord_username': 'tibbywibby11', 'primary_role': 'Jungle'}, {'discord_username': 'geekee', 'primary_role': 'Support'}, {'discord_username': 'jun_with_an_e', 'primary_role': 'Support'}, {'discord_username': 'just.neo', 'primary_role': 'Mid'}, {'discord_username': 'isolation19', 'primary_role': 'ADC'}]
-Captain [VeryLastNerve] picked [Flaccid4U] (Support)!
-Captain [_lakuna] total points: 150.0
-Tie for Captain [_lakuna]: [{'discord_username': 'tibbywibby11', 'primary_role': 'Jungle'}, {'discord_username': 'geekee', 'primary_role': 'Support'}, {'discord_username': 'jun_with_an_e', 'primary_role': 'Support'}, {'discord_username': 'just.neo', 'primary_role': 'Mid'}, {'discord_username': 'isolation19', 'primary_role': 'ADC'}]
-Captain [_lakuna] picked [tibbywibby11] (Jungle)!
-Captain [.stran] total points: 149.0
-Tie for Captain [.stran]: [{'discord_username': 'geekee', 'primary_role': 'Support'}, {'discord_username': 'jun_with_an_e', 'primary_role': 'Support'}, {'discord_username': 'just.neo', 'primary_role': 'Mid'}, {'discord_username': 'isolation19', 'primary_role': 'ADC'}]
-Captain [.stran] picked [geekee] (Support)!
-Captain [mrlizwiz] total points: 153.0
-Tie for Captain [mrlizwiz]: [{'discord_username': 'jun_with_an_e', 'primary_role': 'Support'}, {'discord_username': 'just.neo', 'primary_role': 'Mid'}, {'discord_username': 'isolation19', 'primary_role': 'ADC'}]
-Captain [mrlizwiz] picked [jun_with_an_e] (Support)!
-Captain [Lapislazuli3824] total points: 149.0
-Tie for Captain [Lapislazuli3824]: [{'discord_username': 'just.neo', 'primary_role': 'Mid'}, {'discord_username': 'isolation19', 'primary_role': 'ADC'}]
-Captain [Lapislazuli3824] picked [just.neo] (Mid)!
-Captain [Earthen] total points: 152.0
-Captain [Earthen] picked [isolation19] (ADC)!
-Captain [.f_g.] total points: 153.0
-Tie for Captain [.f_g.]: [{'discord_username': 'chaos0002', 'primary_role': 'Top'}, {'discord_username': 'Colby115', 'primary_role': 'Top'}, {'discord_username': 'nerfseason', 'primary_role': 'Top'}]
-Captain [.f_g.] picked [chaos0002] (Top)!
-Captain [recoveringschizo] total points: 156.0
-Tie for Captain [recoveringschizo]: [{'discord_username': 'Colby115', 'primary_role': 'Top'}, {'discord_username': 'nerfseason', 'primary_role': 'Top'}]
-Captain [recoveringschizo] picked [Colby115] (Top)!
-Captain [jayrich1101] total points: 157.0
-Captain [jayrich1101] picked [nerfseason] (Top)!
-Captain [ffsfruit] total points: 154.0
-Captain [ffsfruit] picked [atamaex] (Top)!
-Captain [different_lol] total points: 157.8
-Tie for Captain [different_lol]: [{'discord_username': 'Scardeo', 'primary_role': 'Top'}, {'discord_username': 'Dreadsu', 'primary_role': 'Top'}]
-Captain [different_lol] picked [Scardeo] (Top)!
-Captain [Stl_Slayer_24] total points: 160.0
-Captain [Stl_Slayer_24] picked [Dreadsu] (Top)!
-Captain [DavidEdge] total points: 160.0
-Captain [DavidEdge] picked [Goku2057] (Support)!
-Captain [catinatin] total points: 164.6
-Captain [catinatin] picked [icebirb.] (Mid)!
-Captain [axekiller1107] total points: 163.0
-Tie for Captain [axekiller1107]: [{'discord_username': 'shotsfortots', 'primary_role': 'ADC'}, {'discord_username': 'Serided', 'primary_role': 'ADC'}, {'discord_username': 'Elvynya', 'primary_role': 'ADC'}]
-Captain [axekiller1107] picked [shotsfortots] (ADC)!
-Captain [aratthe] total points: 165.0
-Tie for Captain [aratthe]: [{'discord_username': 'Serided', 'primary_role': 'ADC'}, {'discord_username': 'Elvynya', 'primary_role': 'ADC'}]
-Captain [aratthe] picked [Serided] (ADC)!
+Captain [VeryLastNerve] total points: 174
+Tie for Captain [VeryLastNerve]: [{'discord_username': 'sigilofaletheia', 'Pos': 'Support|Jungle'}, {'discord_username': '_aly39_', 'Pos': 'Mid|Support'}]
+Captain [VeryLastNerve] picked [sigilofaletheia] (Support|Jungle)!
+Captain [_lakuna] total points: 138
+Captain [_lakuna] picked [_aly39_] (Mid|Support)!
+Captain [.stran] total points: 139
+Tie for Captain [.stran]: [{'discord_username': 'sithprincehammy', 'Pos': 'Jungle'}, {'discord_username': 'Jbish96', 'Pos': 'ADC|Support'}, {'discord_username': 'notalxd', 'Pos': 'Jungle'}, {'discord_username': 'Monturkey', 'Pos': 'Jungle'}]
+Captain [.stran] picked [sithprincehammy] (Jungle)!
+Captain [mrlizwiz] total points: 120
+Captain [mrlizwiz] picked [icebirb.] (Mid|Support)!
+Captain [Lapislazuli3824] total points: 145
+Tie for Captain [Lapislazuli3824]: [{'discord_username': 'Jbish96', 'Pos': 'ADC|Support'}, {'discord_username': 'notalxd', 'Pos': 'Jungle'}, {'discord_username': 'Monturkey', 'Pos': 'Jungle'}]
+Captain [Lapislazuli3824] picked [Jbish96] (ADC|Support)!
+Captain [Earthen] total points: 130
+Captain [Earthen] picked [Barretel] (Jungle|Support)!
+Captain [.f_g.] total points: 153
+Tie for Captain [.f_g.]: [{'discord_username': 'notalxd', 'Pos': 'Jungle'}, {'discord_username': 'Monturkey', 'Pos': 'Jungle'}]
+Captain [.f_g.] picked [notalxd] (Jungle)!
+Captain [recoveringschizo] total points: 133
+Captain [recoveringschizo] picked [Monturkey] (Jungle)!
+Captain [jayrich1101] total points: 153
+Captain [jayrich1101] picked [mctatertot] (Jungle|Support)!
+Captain [ffsfruit] total points: 159
+Tie for Captain [ffsfruit]: [{'discord_username': 'kybcat', 'Pos': 'ADC|Top'}, {'discord_username': 'owlbirdy', 'Pos': 'Mid|Top'}]
+Captain [ffsfruit] picked [kybcat] (ADC|Top)!
+Captain [different_lol] total points: 161
+Captain [different_lol] picked [owlbirdy] (Mid|Top)!
+Captain [Stl_Slayer_24] total points: 162
+Tie for Captain [Stl_Slayer_24]: [{'discord_username': 'darkll', 'Pos': 'Mid'}, {'discord_username': 'theencry', 'Pos': 'Jungle|Top'}, {'discord_username': 'para.dox', 'Pos': 'Jungle|Support'}, {'discord_username': 'Maxwelljrm', 'Pos': 'Mid'}]
+Captain [Stl_Slayer_24] picked [darkll] (Mid)!
+Captain [DavidEdge] total points: 164
+Tie for Captain [DavidEdge]: [{'discord_username': 'theencry', 'Pos': 'Jungle|Top'}, {'discord_username': 'para.dox', 'Pos': 'Jungle|Support'}, {'discord_username': 'Maxwelljrm', 'Pos': 'Mid'}]
+Captain [DavidEdge] picked [theencry] (Jungle|Top)!
+Captain [catinatin] total points: 163
+Tie for Captain [catinatin]: [{'discord_username': 'para.dox', 'Pos': 'Jungle|Support'}, {'discord_username': 'Maxwelljrm', 'Pos': 'Mid'}]
+Captain [catinatin] picked [para.dox] (Jungle|Support)!
+Captain [axekiller1107] total points: 178
+Captain [axekiller1107] picked [Maxwelljrm] (Mid)!
+Captain [aratthe] total points: 160
+Tie for Captain [aratthe]: [{'discord_username': 'tibbywibby11', 'Pos': 'Jungle'}, {'discord_username': 'geekee', 'Pos': 'Support|ADC'}, {'discord_username': 'just.neo', 'Pos': 'Mid'}]
+Captain [aratthe] picked [tibbywibby11] (Jungle)!

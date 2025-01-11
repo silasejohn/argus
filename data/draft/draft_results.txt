@@ -1,29 +1,29 @@
 === Final Draft Results ===
 
 Captain [VeryLastNerve] Team:
-Total Points: 200
+Total Points: 184
 VeryLastNerve - Platinum 4 0 LP (Top|Support) - 33
 levizxy - Grandmaster 491 LP (Support) - 2
 ifearnobody - Master 0 LP (Jungle) - 14
 vegito3650 - Platinum 2 44 LP (Support|Jungle) - 31
-ookami_mio - Diamond 2 0 LP (Top) - 18
-blizzardbear101 - Emerald 4 53 LP (Mid) - 26
-melonorb - nan (ADC) - 50
-sigilofaletheia - Emerald 2 21 LP (Support|Jungle) - 26
+asadbanana - Diamond 3 65 LP (Top) - 18
+aapathyy - Emerald 3 15 LP (Mid) - 25
+isolation19 - Platinum 4 70 LP (ADC) - 35
+Promech - Emerald 4 62 LP (Top|Mid) - 26
 
 Captain [_lakuna] Team:
-Total Points: 164
+Total Points: 160
 _lakuna - Diamond 4 41 LP (Jungle) - 21
 adlking - Grandmaster 611 LP (ADC) - 3
 chubbydumpling - Diamond 4 0 LP (Support) - 14
 feeshstix - nan (ADC) - 43
-numberzer0 - Diamond 3 5 LP (Mid) - 21
-thehamburglar8920 - Platinum 1 6 LP (Top) - 27
+ookami_mio - Diamond 2 0 LP (Top) - 18
+blizzardbear101 - Emerald 4 53 LP (Mid) - 26
 pandaemonium9213 - Master 180 LP (Support|Top) - 9
-_aly39_ - Emerald 3 0 LP (Mid|Support) - 26
+sigilofaletheia - Emerald 2 21 LP (Support|Jungle) - 26
 
 Captain [.stran] Team:
-Total Points: 167
+Total Points: 165
 .stran - Platinum 2 10 LP (ADC) - 32
 rebornmountainx - Grandmaster 382 LP (Jungle) - 3
 bluewu. - Master 15 LP (Mid) - 14
@@ -31,39 +31,40 @@ Bhrisy - Platinum 3 92 LP (Support|Top) - 31
 aguriv - Diamond 4 1 LP (Top) - 21
 amuchu - Emerald 2 4 LP (Support) - 25
 Iateyosushi - Master 32 LP (Jungle|Top) - 13
-sithprincehammy - Platinum 2 37 LP (Jungle) - 28
+_aly39_ - Emerald 3 0 LP (Mid|Support) - 26
 
 Captain [mrlizwiz] Team:
-Total Points: 160
+Total Points: 171
 mrlizwiz - Platinum 3 85 LP (Top) - 24
-Ritty_lol - Master 309 LP (Jungle) - 3
-hwasal06 - Emerald 3 13 LP (Mid) - 15
-iamrowx - Gold 2 95 LP (Support) - 38
-Edmontosaurus - Emerald 2 36 LP (ADC) - 20
-NicoTheBest8321 - Grandmaster 549 LP (Mid|ADC) - 2
-Kuroaf - Diamond 4 22 LP (Jungle|Top) - 18
-icebirb. - Gold 4 0 LP (Mid|Support) - 40
-
-Captain [Lapislazuli3824] Team:
-Total Points: 173
-Lapislazuli3824 - Emerald 3 23 LP (Mid) - 23
-borria - Master 32 LP (Support) - 9
-Xeuhktal - Master 10 LP (Top) - 16
+ririkaririka - Master 17 LP (Mid) - 8
+GourmetCookies - Master 0 LP (Support) - 16
 .jakefromstatefarmat3am - Emerald 4 72 LP (Top) - 32
 Epicphail2 - Emerald 4 90 LP (Jungle) - 19
 BirdP3Rson - Emerald 2 0 LP (ADC) - 26
+Kuroaf - Diamond 4 22 LP (Jungle|Top) - 18
+sithprincehammy - Platinum 2 37 LP (Jungle) - 28
+
+Captain [Lapislazuli3824] Team:
+Total Points: 161
+Lapislazuli3824 - Emerald 3 23 LP (Mid) - 23
+Ritty_lol - Master 309 LP (Jungle) - 3
+Xeuhktal - Master 10 LP (Top) - 16
+iamrowx - Gold 2 95 LP (Support) - 38
+Edmontosaurus - Emerald 2 36 LP (ADC) - 20
+NicoTheBest8321 - Grandmaster 549 LP (Mid|ADC) - 2
 Drysicle - Diamond 4 27 LP (Top|Support) - 20
-Jbish96 - Platinum 1 16 LP (ADC|Support) - 28
+Tiger58 - Emerald 4 0 LP (Support) - 39
 
 Captain [Earthen] Team:
-Total Points: 161
+Total Points: 206
 Earthen - Platinum 2 8 LP (Top|ADC) - 31
-ririkaririka - Master 17 LP (Mid) - 8
-GourmetCookies - Master 0 LP (Support) - 16
+borria - Master 32 LP (Support) - 9
+hwasal06 - Emerald 3 13 LP (Mid) - 15
 ausxh - Emerald 2 16 LP (ADC|Support) - 25
 jinjguchiha - Diamond 3 24 LP (Jungle) - 21
-crimson_0range - Platinum 3 59 LP (Top) - 29
-Barretel - Platinum 4 33 LP (Jungle|Support) - 31
+thehamburglar8920 - Platinum 1 6 LP (Top) - 27
+melonorb - nan (ADC) - 50
+Jbish96 - Platinum 1 16 LP (ADC|Support) - 28
 
 Captain [.f_g.] Team:
 Total Points: 181
@@ -82,94 +83,93 @@ recoveringschizo - Emerald 3 31 LP (Jungle|Mid) - 26
 billy5832 - Master 331 LP (Jungle) - 10
 w0ld - Diamond 2 6 LP (Support) - 17
 austinsilva - Emerald 4 30 LP (Support|Top) - 27
-reapersblade - Emerald 2 95 LP (Mid) - 22
-CCswift - Emerald 4 0 LP (Top) - 31
-Monturkey - Emerald 3 75 LP (Jungle) - 28
+numberzer0 - Diamond 3 5 LP (Mid) - 21
+crimson_0range - Platinum 3 59 LP (Top) - 29
+Barretel - Platinum 4 33 LP (Jungle|Support) - 31
 
 Captain [jayrich1101] Team:
-Total Points: 182
+Total Points: 196
 jayrich1101 - Diamond 4 15 LP (ADC) - 14
 Owen0214 - Grandmaster 618 LP (Top) - 2
-akudame_ikumika - Diamond 1 27 LP (Jungle) - 16
-crusader_iii - Bronze 4 11 LP (Jungle) - 48
-0nlySinful - Emerald 4 24 LP (Mid) - 23
-roseremains - Gold 1 64 LP (Support) - 30
-Lord Tubbyton - Diamond 4 16 LP (Mid|Support) - 20
-mctatertot - Emerald 4 0 LP (Jungle|Support) - 29
+para.dox - Gold 3 82 LP (Jungle|Support) - 33
+CCswift - Emerald 4 0 LP (Top) - 31
+Whynot99. - Diamond 3 43 LP (Jungle) - 22
+theotherbubble - Platinum 3 53 LP (Mid) - 28
+Goku2057 - Gold 2 41 LP (Support) - 38
+Monturkey - Emerald 3 75 LP (Jungle) - 28
 
 Captain [ffsfruit] Team:
-Total Points: 191
+Total Points: 182
 ffsfruit - Diamond 2 6 LP (Mid) - 15
 thespecial1 - Master 22 LP (Jungle) - 11
 benjamminlol - Diamond 3 14 LP (Top) - 18
 chaos0002 - Emerald 4 0 LP (Top|Mid) - 36
 shadowpoga - Diamond 4 70 LP (ADC) - 23
+roseremains - Gold 1 64 LP (Support) - 30
+Lord Tubbyton - Diamond 4 16 LP (Mid|Support) - 20
+mctatertot - Emerald 4 0 LP (Jungle|Support) - 29
+
+Captain [different_lol] Team:
+Total Points: 190
+different_lol - Grandmaster 387 LP (ADC) - 6
+Ticofighter47 - Master 411 LP (Top) - 11
+akudame_ikumika - Diamond 1 27 LP (Jungle) - 16
+angelofpaper2 - Silver 2 9 LP (Mid|Top) - 47
+reapersblade - Emerald 2 95 LP (Mid) - 22
 Flaccid4U - Platinum 4 17 LP (Support) - 35
 xenux - Diamond 2 31 LP (Top|Mid) - 21
 kybcat - Platinum 4 1 LP (ADC|Top) - 32
 
-Captain [different_lol] Team:
+Captain [Stl_Slayer_24] Team:
 Total Points: 193
-different_lol - Grandmaster 387 LP (ADC) - 6
-Ticofighter47 - Master 411 LP (Top) - 11
+Stl_Slayer_24 - Master 19 LP (ADC) - 10
+Pyrosi - Master 148 LP (Mid) - 12
 Mcfasho - Diamond 3 7 LP (Jungle) - 17
-brandis_ - Bronze 1 30 LP (Jungle) - 46
-slaveknightkos - Emerald 3 42 LP (Mid) - 24
+Elvynya - Gold 3 47 LP (ADC|Support) - 41
+.monsuno - Emerald 3 32 LP (Top) - 24
 jun_with_an_e - Emerald 4 18 LP (Support) - 35
 vanos____ - Emerald 3 65 LP (ADC|Mid) - 22
 owlbirdy - Platinum 4 69 LP (Mid|Top) - 32
 
-Captain [Stl_Slayer_24] Team:
-Total Points: 195
-Stl_Slayer_24 - Master 19 LP (ADC) - 10
-Pyrosi - Master 148 LP (Mid) - 12
-kristangent. - Diamond 2 9 LP (Jungle) - 18
-drjacka1 - Gold 4 24 LP (Jungle) - 40
-.monsuno - Emerald 3 32 LP (Top) - 24
-NemakuNa - Platinum 4 94 LP (Support) - 35
-themangomenace - Emerald 2 0 LP (Support|ADC) - 23
-darkll - Platinum 4 64 LP (Mid) - 33
-
 Captain [DavidEdge] Team:
-Total Points: 197
+Total Points: 195
 DavidEdge - Diamond 2 57 LP (Support) - 15
 eeleeyas - Master 102 LP (Jungle) - 13
 Luytenn - Diamond 4 24 LP (ADC) - 18
 bredonis - Gold 2 92 LP (Top|Jungle) - 34
-aapathyy - Emerald 3 15 LP (Mid) - 25
+0nlySinful - Emerald 4 24 LP (Mid) - 23
 Colby115 - Platinum 4 1 LP (Top) - 36
+themangomenace - Emerald 2 0 LP (Support|ADC) - 23
+darkll - Platinum 4 64 LP (Mid) - 33
+
+Captain [catinatin] Team:
+Total Points: 197
+catinatin - Diamond 2 13 LP (Mid) - 17
+Ponygafo - Diamond 4 44 LP (Support) - 12
+kristangent. - Diamond 2 9 LP (Jungle) - 18
+Yujii - Emerald 2 5 LP (Mid) - 33
+baomatrix - Diamond 4 1 LP (ADC) - 25
+nerfseason - Emerald 4 20 LP (Top) - 36
 bouncy.knight. - Diamond 4 26 LP (Jungle|Support) - 23
 theencry - Platinum 4 2 LP (Jungle|Top) - 33
 
-Captain [catinatin] Team:
-Total Points: 196
-catinatin - Diamond 2 13 LP (Mid) - 17
-Ponygafo - Diamond 4 44 LP (Support) - 12
-yushuYoshi - Diamond 2 0 LP (Top) - 18
-Yujii - Emerald 2 5 LP (Mid) - 33
-Whynot99. - Diamond 3 43 LP (Jungle) - 22
-isolation19 - Platinum 4 70 LP (ADC) - 35
-MajinHollow - Emerald 4 87 LP (ADC|Mid) - 26
-para.dox - Gold 3 82 LP (Jungle|Support) - 33
-
 Captain [axekiller1107] Team:
-Total Points: 211
+Total Points: 172
 axekiller1107 - Platinum 2 28 LP (Jungle|Support) - 21
 yeetyoteyate - Master 31 LP (Mid) - 13
-xbalmer - Diamond 3 0 LP (ADC) - 18
+yushuYoshi - Diamond 2 0 LP (Top) - 18
 themilkalator - Platinum 4 38 LP (ADC|Mid) - 28
 superchicken. - Diamond 4 5 LP (Jungle) - 24
-nerfseason - Emerald 4 20 LP (Top) - 36
-Goku2057 - Gold 2 41 LP (Support) - 38
+NemakuNa - Platinum 4 94 LP (Support) - 35
 Maxwelljrm - Gold 1 27 LP (Mid) - 33
 
 Captain [aratthe] Team:
-Total Points: 195
+Total Points: 203
 aratthe - Platinum 1 27 LP (Support) - 32
 _hyperdragon - Master 1 LP (Jungle) - 14
-asadbanana - Diamond 3 65 LP (Top) - 18
+xbalmer - Diamond 3 0 LP (ADC) - 18
 gziemiyo - Diamond 2 63 LP (Mid|Jungle) - 17
-baomatrix - Diamond 4 1 LP (ADC) - 25
-theotherbubble - Platinum 3 53 LP (Mid) - 28
-Promech - Emerald 4 62 LP (Top|Mid) - 26
+slaveknightkos - Emerald 3 42 LP (Mid) - 24
+Dreadsu - Gold 3 59 LP (Top) - 37
+MajinHollow - Emerald 4 87 LP (ADC|Mid) - 26
 tibbywibby11 - Gold 3 0 LP (Jungle) - 35

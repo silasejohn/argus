@@ -1,39 +1,40 @@
 === Player Draft Pool (Top) ===
-[1] Owen0214 - Grandmaster (Top) - 2.0
-[2] pandaemonium9213 - Master (Top) - 9.0
-[3] Ticofighter47 - Master (Top) - 11.0
-[4] Iateyosushi - Diamond 3 (Top) - 13.0
-[5] Xeuhktal - Diamond 4 (Top) - 16.0
-[6] Kuroaf - Diamond 3 (Top) - 17.6
-[7] benjamminlol - Diamond 4 (Top) - 18.0
-[8] ookami_mio - Emerald 1 (Top) - 18.0
-[9] asadbanana - Diamond 3 (Top) - 18.0
-[10] yushuYoshi - Diamond 3 (Top) - 18.0
-[11] Drysicle - Emerald 2 (Top) - 20.0
-[12] aguriv - Platinum 1-4 (Top) - 21.0
-[13] xenux - Emerald 3 (Top) - 21.0
-[14] .monsuno - Emerald 4 (Top) - 24.0
-[15] Promech - Platinum 1-4 (Top) - 26.0
-[16] austinsilva - Emerald 4 (Top) - 27.0
-[17] thehamburglar8920 - Platinum 1-4 (Top) - 27.0
-[18] crimson_0range - Platinum 1-4 (Top) - 29.0
-[19] Bhrisy - Platinum 1-4 (Top) - 31.0
-[20] CCswift - Platinum 1-4 (Top) - 31.0
-[21] .jakefromstatefarmat3am - Emerald 3 (Top) - 32.0
-[22] owlbirdy - Gold 1-4 (Top) - 32.0
-[23] kybcat - Gold 1-4 (Top) - 32.0
-[24] theencry - Platinum 1-4 (Top) - 33.0
-[25] bredonis - Gold 1-4 (Top) - 34.0
-[26] nerfseason - Platinum 1-4 (Top) - 36.0
-[27] Colby115 - Gold 1-4 (Top) - 36.0
-[28] chaos0002 - Gold 1-4 (Top) - 36.0
-[29] atamaex - Gold 1-4 (Top) - 36.2
-[30] Scardeo - Silver 1-4 (Top) - 37.0
-[31] Dreadsu - Gold 1-4 (Top) - 37.0
-[32] angelofpaper2 - Silver 1-4 (Top) - 47.0
-[33] Warmpikmin - Iron 1-4 (Top) - 49.0
-[34] Lanciferp - Iron 1-4 (Top) - 50.0
+[1] ohiowen#skib | Owen#2879 - Grandmaster 618 LP (Top) - 2
+[2] His Brother#ETHAN - Master 180 LP (Top) - 9
+[3] ticofighter#NA1 | Tico#TAHM - Master 411 LP (Top) - 11
+[4] hackzorzzzz#NA1 - Master 32 LP (Top) - 13
+[5] Xeuhktal#NA1 - Master 10 LP (Top) - 16
+[6] Banana#54010 - Diamond 3 65 LP (Top) - 18
+[7] Yoshi#Yushu - Diamond 2 0 LP (Top) - 18
+[8] Gawr Goomba#shark - Diamond 2 0 LP (Top) - 18
+[9] Top Tower#NA1 - Diamond 3 14 LP (Top) - 18
+[10] Kuroaf#NA1 - Diamond 4 22 LP (Top) - 18
+[11] Drysicle#NA1 - Diamond 4 27 LP (Top) - 20
+[12] Xenux#Xenux - Diamond 2 31 LP (Top) - 21
+[13] 추방 Agu#BRNA - Diamond 4 1 LP (Top) - 21
+[14] bluelavalamp#NA1 - Emerald 2 9 LP (Top) - 21
+[15] saw#fast - Emerald 3 32 LP (Top) - 24
+[16] Promech#NA1 - Emerald 4 62 LP (Top) - 26
+[17] Bound#WVU1 - Emerald 4 30 LP (Top) - 27
+[18] lsoDidact#NA1 - Platinum 1 6 LP (Top) - 27
+[19] BigBootyBarrels#Bomba - Platinum 3 59 LP (Top) - 29
+[20] Bhrisy#NA69 - Platinum 3 92 LP (Top) - 31
+[21] CCswift#NA1 - Emerald 4 0 LP (Top) - 31
+[22] DESTROYXXXXL#NA1 - Emerald 4 72 LP (Top) - 32
+[23] OWLBIRD#NA1 - Platinum 4 69 LP (Top) - 32
+[24] kybcat#7796 - Platinum 4 1 LP (Top) - 32
+[25] Encry#ssj3 - Platinum 4 2 LP (Top) - 33
+[26] MiHughJanis#HUGH - Gold 2 92 LP (Top) - 34
+[27] Atamaex#NA1 - Gold 2 30 LP (Top) - 36
+[28] nerf season#lord - Emerald 4 20 LP (Top) - 36
+[29] Harbinger#115 - Platinum 4 1 LP (Top) - 36
+[30] OkNowImTilted#Aim - Emerald 4 0 LP (Top) - 36
+[31] callmeid#SNIP - Gold 3 59 LP (Top) - 37
+[32] scardeo#NA1 - Gold 2 77 LP (Top) - 37
+[33] AngelOfPaper2#NA1 | AngelOfPaper3#GGS - Silver 2 9 LP (Top) - 47
+[34] TahmTuah#6088 - Iron 1 48 LP (Top) - 49
+[35] LanciferP#NA1 - Bronze 1 0 LP (Top) - 50
 
 
-Total Entries: 34
-Average Points (Top): 27.200000000000003
+Total Entries: 35
+Average Points (Top): 27.02857142857143

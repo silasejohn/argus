@@ -1,36 +1,36 @@
 === Captain Draft Pool ===
-[1] VeryLastNerve - Silver 1-4 (Top) - 33.0
-[2] _lakuna - Emerald 4 (Jungle) - 21.0
-[3] .stran - Platinum 1-4 (ADC) - 32.0
-[4] mrlizwiz - Platinum 1-4 (Top) - 24.0
-[5] Lapislazuli3824 - Emerald 4 (Mid) - 23.0
-[6] Earthen - Emerald 4 (Top) - 31.0
-[7] .f_g. - Emerald 2 (Top) - 18.0
-[8] recoveringschizo - Gold 1-4 (Jungle) - 26.0
-[9] jayrich1101 - Diamond 3 (ADC) - 14.0
-[10] ffsfruit - Diamond 4 (Mid) - 15.0
-[11] different_lol - Master (ADC) - 6.0
-[12] Stl_Slayer_24 - Master (ADC) - 10.0
-[13] DavidEdge - Diamond 2 (Support) - 15.0
-[14] catinatin - Emerald 2 (Mid) - 17.0
-[15] axekiller1107 - Emerald 1 (Jungle) - 21.0
-[16] aratthe - Gold 1-4 (Support) - 32.0
+[1] VeryLastNerve - Platinum 4 0 LP (Top|Support) - 33
+[2] _lakuna - Diamond 4 41 LP (Jungle) - 21
+[3] .stran - Platinum 2 10 LP (ADC) - 32
+[4] mrlizwiz - Platinum 3 85 LP (Top) - 24
+[5] Lapislazuli3824 - Emerald 3 23 LP (Mid) - 23
+[6] Earthen - Platinum 2 8 LP (Top|ADC) - 31
+[7] .f_g. - Diamond 4 0 LP (Top|Mid) - 18
+[8] recoveringschizo - Emerald 3 31 LP (Jungle|Mid) - 26
+[9] jayrich1101 - Diamond 4 15 LP (ADC) - 14
+[10] ffsfruit - Diamond 2 6 LP (Mid) - 15
+[11] different_lol - Grandmaster 387 LP (ADC) - 6
+[12] Stl_Slayer_24 - Master 19 LP (ADC) - 10
+[13] DavidEdge - Diamond 2 57 LP (Support) - 15
+[14] catinatin - Diamond 2 13 LP (Mid) - 17
+[15] axekiller1107 - Platinum 2 28 LP (Jungle|Support) - 21
+[16] aratthe - Platinum 1 27 LP (Support) - 32
 
 
 === Captain Draft Pool (Ordered) ===
-[1] different_lol - Master (ADC) - 6.0
-[2] Stl_Slayer_24 - Master (ADC) - 10.0
-[3] jayrich1101 - Diamond 3 (ADC) - 14.0
-[4] ffsfruit - Diamond 4 (Mid) - 15.0
-[5] DavidEdge - Diamond 2 (Support) - 15.0
-[6] catinatin - Emerald 2 (Mid) - 17.0
-[7] .f_g. - Emerald 2 (Top) - 18.0
-[8] _lakuna - Emerald 4 (Jungle) - 21.0
-[9] axekiller1107 - Emerald 1 (Jungle) - 21.0
-[10] Lapislazuli3824 - Emerald 4 (Mid) - 23.0
-[11] mrlizwiz - Platinum 1-4 (Top) - 24.0
-[12] recoveringschizo - Gold 1-4 (Jungle) - 26.0
-[13] Earthen - Emerald 4 (Top) - 31.0
-[14] .stran - Platinum 1-4 (ADC) - 32.0
-[15] aratthe - Gold 1-4 (Support) - 32.0
-[16] VeryLastNerve - Silver 1-4 (Top) - 33.0
+[1] different_lol - Grandmaster 387 LP (ADC) - 6
+[2] Stl_Slayer_24 - Master 19 LP (ADC) - 10
+[3] jayrich1101 - Diamond 4 15 LP (ADC) - 14
+[4] ffsfruit - Diamond 2 6 LP (Mid) - 15
+[5] DavidEdge - Diamond 2 57 LP (Support) - 15
+[6] catinatin - Diamond 2 13 LP (Mid) - 17
+[7] .f_g. - Diamond 4 0 LP (Top|Mid) - 18
+[8] _lakuna - Diamond 4 41 LP (Jungle) - 21
+[9] axekiller1107 - Platinum 2 28 LP (Jungle|Support) - 21
+[10] Lapislazuli3824 - Emerald 3 23 LP (Mid) - 23
+[11] mrlizwiz - Platinum 3 85 LP (Top) - 24
+[12] recoveringschizo - Emerald 3 31 LP (Jungle|Mid) - 26
+[13] Earthen - Platinum 2 8 LP (Top|ADC) - 31
+[14] .stran - Platinum 2 10 LP (ADC) - 32
+[15] aratthe - Platinum 1 27 LP (Support) - 32
+[16] VeryLastNerve - Platinum 4 0 LP (Top|Support) - 33

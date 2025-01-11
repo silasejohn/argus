@@ -1,30 +1,30 @@
 === Player Draft Pool (ADC) ===
-[1] NicoTheBest8321 - Grandmaster (ADC) - 2.0
-[2] adlking - Master (ADC) - 3.0
-[3] me.pp - Diamond 2 (ADC) - 9.0
-[4] Luytenn - Emerald 3 (ADC) - 18.0
-[5] xbalmer - Emerald 1 (ADC) - 18.0
-[6] Edmontosaurus - Emerald 2 (ADC) - 20.0
-[7] vanos____ - Emerald 2 (ADC) - 22.0
-[8] themangomenace - Platinum 1-4 (ADC) - 23.0
-[9] baomatrix - Emerald 3 (ADC) - 25.0
-[10] ausxh - Emerald 3 (ADC) - 25.0
-[11] BirdP3Rson - Platinum 1-4 (ADC) - 26.0
-[12] MajinHollow - Platinum 1-4 (ADC) - 26.0
-[13] Jbish96 - Platinum 1-4 (ADC) - 28.0
-[14] themilkalator - Platinum 1-4 (ADC) - 28.0
-[15] kybcat - Gold 1-4 (ADC) - 32.0
-[16] isolation19 - Gold 1-4 (ADC) - 35.0
-[17] geekee - Gold 1-4 (ADC) - 35.0
-[18] Serided - Silver 1-4 (ADC) - 41.0
-[19] Elvynya - Silver 1-4 (ADC) - 41.0
-[20] shotsfortots - Silver 1-4 (ADC) - 41.0
-[21] feeshstix - Silver 1-4 (ADC) - 43.0
-[22] jesshipo - Bronze 1-4 (ADC) - 45.0
-[23] crazymike1 - Bronze 1-4 (ADC) - 45.0
-[24] melonorb - Iron 1-4 (ADC) - 50.0
-[25] fluffy_s - Silver 1-4 (ADC) - nan
+[1] Niccus#gopha - Grandmaster 549 LP (ADC) - 2
+[2] Alune#NA999 - Grandmaster 611 LP (ADC) - 3
+[3] PingSpam#NA1 - Master 98 LP (ADC) - 9
+[4] Balmer#024 - Diamond 3 0 LP (ADC) - 18
+[5] Luyten#NA1 - Diamond 4 24 LP (ADC) - 18
+[6] Edmontosaurus#KogOT - Emerald 2 36 LP (ADC) - 20
+[7] weddchan#2404 - Emerald 3 65 LP (ADC) - 22
+[8] Domina Luminis#NA1 | ShadowPoga#NA1 - Diamond 4 70 LP (ADC) - 23
+[9] ChewyLight28#NA1 - Emerald 2 0 LP (ADC) - 23
+[10] Sukiha#owo - Emerald 2 16 LP (ADC) - 25
+[11] BioMatrix#EmiQT - Diamond 4 1 LP (ADC) - 25
+[12] BirdP3Rson#37114 - Emerald 2 0 LP (ADC) - 26
+[13] MajinHollow#Vayne - Emerald 4 87 LP (ADC) - 26
+[14] GumbaStomp69#NA1 - Platinum 1 16 LP (ADC) - 28
+[15] FunnyyButton#NA123 - Platinum 4 38 LP (ADC) - 28
+[16] kybcat#7796 - Platinum 4 1 LP (ADC) - 32
+[17] Isolation#1909 - Platinum 4 70 LP (ADC) - 35
+[18] Geekèé#0001 - Gold 2 76 LP (ADC) - 35
+[19] it is what it is#na3 - Gold 4 8 LP (ADC) - 41
+[20] Serided#RoHan - Silver 1 60 LP (ADC) - 41
+[21] Elvynya#Lucy - Gold 3 47 LP (ADC) - 41
+[22] Feeshstix#fish - nan (ADC) - 43
+[23] PeachyVibes#80085 - Silver 4 73 LP (ADC) - 45
+[24] Expertknifer#DADDY - Silver 3 80 LP (ADC) - 45
+[25] iggy#bored - nan (ADC) - 50
 
 
 Total Entries: 25
-Average Points (ADC): 27.24
+Average Points (ADC): 28.16

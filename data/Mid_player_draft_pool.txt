@@ -1,41 +1,41 @@
 === Player Draft Pool (Mid) ===
-[1] NicoTheBest8321 - Grandmaster (Mid) - 2.0
-[2] ririkaririka - Master (Mid) - 8.0
-[3] Pyrosi - Master (Mid) - 12.0
-[4] yeetyoteyate - Diamond 3 (Mid) - 13.0
-[5] bluewu. - Diamond 2 (Mid) - 14.0
-[6] hwasal06 - Diamond 1 (Mid) - 15.0
-[7] kessler_kora - Emerald 4 (Mid) - 16.0
-[8] gziemiyo - Diamond 1 (Mid) - 17.0
-[9] xenux - Emerald 3 (Mid) - 21.0
-[10] numberzer0 - Emerald 2 (Mid) - 21.0
-[11] vanos____ - Emerald 2 (Mid) - 22.0
-[12] 0nlySinful - Emerald 4 (Mid) - 23.0
-[13] slaveknightkos - Emerald 3 (Mid) - 24.0
-[14] aapathyy - Platinum 1-4 (Mid) - 25.0
-[15] _aly39_ - Platinum 1-4 (Mid) - 26.0
-[16] blizzardbear101 - Emerald 4 (Mid) - 26.0
-[17] MajinHollow - Platinum 1-4 (Mid) - 26.0
-[18] Promech - Platinum 1-4 (Mid) - 26.0
-[19] theotherbubble - Gold 1-4 (Mid) - 28.0
-[20] themilkalator - Platinum 1-4 (Mid) - 28.0
-[21] owlbirdy - Gold 1-4 (Mid) - 32.0
-[22] darkll - Gold 1-4 (Mid) - 33.0
-[23] Maxwelljrm - Gold 1-4 (Mid) - 33.0
-[24] just.neo - Gold 1-4 (Mid) - 35.0
-[25] chaos0002 - Gold 1-4 (Mid) - 36.0
-[26] SwooshWRLD - Gold 1-4 (Mid) - 37.0
-[27] dameionaruto - Gold 1-4 (Mid) - 39.0
-[28] icebirb. - Silver 1-4 (Mid) - 40.0
-[29] Serided - Silver 1-4 (Mid) - 41.0
-[30] datgillyweed - Bronze 1-4 (Mid) - 44.0
-[31] angelofpaper2 - Silver 1-4 (Mid) - 47.0
-[32] Skymoare - Bronze 1-4 (Mid) - 48.0
-[33] Warmpikmin - Iron 1-4 (Mid) - 49.0
-[34] Xellius - Master (Mid) - nan
-[35] karismxtic - Diamond 4 (Mid) - nan
-[36] Lord Tubbyton - Emerald 2 (Mid) - nan
+[1] Niccus#gopha - Grandmaster 549 LP (Mid) - 2
+[2] Ririka#6890 - Master 17 LP (Mid) - 8
+[3] Lost in a river#NA1 | Pyrosis#NA1 - Master 148 LP (Mid) - 12
+[4] YeetYoteYate#NA1 - Master 31 LP (Mid) - 13
+[5] Blue#UU70 - Master 15 LP (Mid) - 14
+[6] SEXWOMY#NA1 - Emerald 3 13 LP (Mid) - 15
+[7] Kessler#KORA - Master 47 LP (Mid) - 16
+[8] AcidStep#NA1 | StepAcid#NA1 - Diamond 2 63 LP (Mid) - 17
+[9] Lord Tubbyton#NA1 - Diamond 4 16 LP (Mid) - 20
+[10] Xenux#Xenux - Diamond 2 31 LP (Mid) - 21
+[11] Number Zer0#NA1 - Diamond 3 5 LP (Mid) - 21
+[12] weddchan#2404 - Emerald 3 65 LP (Mid) - 22
+[13] ReapersBlade#13479 - Emerald 2 95 LP (Mid) - 22
+[14] Proud In Shroud#MAD - Emerald 4 24 LP (Mid) - 23
+[15] SlaveKnightKos#Kos - Emerald 3 42 LP (Mid) - 24
+[16] Ouroboros#Train | Ouroboros#Climb - Emerald 3 15 LP (Mid) - 25
+[17] AlyXO#3976 - Emerald 3 0 LP (Mid) - 26
+[18] Harry Patterson#Fin - Emerald 4 53 LP (Mid) - 26
+[19] MajinHollow#Vayne - Emerald 4 87 LP (Mid) - 26
+[20] Promech#NA1 - Emerald 4 62 LP (Mid) - 26
+[21] bubbles101012#NA1 - Platinum 3 53 LP (Mid) - 28
+[22] FunnyyButton#NA123 - Platinum 4 38 LP (Mid) - 28
+[23] OWLBIRD#NA1 - Platinum 4 69 LP (Mid) - 32
+[24] maxwell#CAN - Gold 1 27 LP (Mid) - 33
+[25] Railleyacil#79810 | Darkll#1024 - Platinum 4 64 LP (Mid) - 33
+[26] Yujii#juju - Emerald 2 5 LP (Mid) - 33
+[27] neo#1447 - Emerald 4 0 LP (Mid) - 35
+[28] OkNowImTilted#Aim - Emerald 4 0 LP (Mid) - 36
+[29] SwooshWRLD#0334 - Platinum 4 0 LP (Mid) - 37
+[30] DameioNaruto#GOKAI - Platinum 4 14 LP (Mid) - 39
+[31] No Hwei#green - Gold 4 0 LP (Mid) - 40
+[32] Serided#RoHan - Silver 1 60 LP (Mid) - 41
+[33] gilly#1111 - Bronze 2 23 LP (Mid) - 44
+[34] AngelOfPaper2#NA1 | AngelOfPaper3#GGS - Silver 2 9 LP (Mid) - 47
+[35] Skymoare#poro - Bronze 4 47 LP (Mid) - 48
+[36] TahmTuah#6088 - Iron 1 48 LP (Mid) - 49
 
 
 Total Entries: 36
-Average Points (Mid): 25.194444444444443
+Average Points (Mid): 27.27777777777778
