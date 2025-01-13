@@ -1,13 +1,14 @@
-# League of Legends Tournament Analysis
+# A Draft Analysis Tool
 
 This project aims to provide a toolset to analyze sign-up responses for VLN Draft S1. This should help our team captain prioritize potential players based on specific criteria such as role preference, rank, and champ pool. 
 
 ## Features
-**Data Parsing**: Read and preprocess tournament sign-up data from a spreadsheet.
-**Role Analysis**: Identify players' primary and secondary roles.
-**Rank Evaluation**: Compare player ranks to create a skill-based priority list
-**Custom Filters**: Filter and rank players based on user-defined criteria.
-**Export Options**: Save prioritized lists for easy sharing.
+**Profile Geneneration**: Create and Automatically Update multiple Player Draft Profiles
+**Web Scraping**: Scrape multiple popular LoL Stat Websites for relevant and updated player information
+**Role Analysis**: Identify player primary and secondary roles given a match history
+**Rank Analysis**: Ascertain player true and peak rank potential 
+**Draft Simulation**: Run sample, locally-optimized simulations of player drafts (tournament openers), filtering + ranking players in a skill-based manner
+**Information Processing**: process any pre-tournament or sign-up data from input spreadsheets
 
 ## Getting Started
 
@@ -68,3 +69,4 @@ Deactivate Virtual Environment: `deactivate`
 12. Look at chart for potential cap recruitments
 13. live draft dashbaord (look pic of inspo)
 14. Easy to Input Profiles + Suspected Roles ~> Automated Full Profile per Person (via GoogleSpreadsheets)
+15. make sure that local storage of rewind.lol champs categorizes into proper buckets
