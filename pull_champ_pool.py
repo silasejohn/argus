@@ -16,7 +16,7 @@ def pull_champ_pool(player_ign, pos):
             # print full df itself
             print(df)
 
-
-ign = "Kuroaf#NA1"
-pos = "jng"
+position_list = ["top", "jng", "mid", "bot", "sup"]
+ign = "Atamaex#NA1"
+pos = "top"
 pull_champ_pool(ign, pos)

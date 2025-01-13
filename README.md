@@ -67,3 +67,4 @@ Deactivate Virtual Environment: `deactivate`
 11. get wr / champs played / per mode per player (combine accounts, seperate accounts) ... try rewind.lol?
 12. Look at chart for potential cap recruitments
 13. live draft dashbaord (look pic of inspo)
+14. Easy to Input Profiles + Suspected Roles ~> Automated Full Profile per Person (via GoogleSpreadsheets)
